@@ -1,0 +1,55 @@
+# 12.3 State Transition Diagrams
+
+## Finite State Machine (FSM)
+=> A model where a program can be in any of a finite number of pre-defined states.
+=> A variety of inputs can be entered and will cause a state transition.
+
+### Syntax:
+* A state is denoted by a circle containing a description:
+deactivated or S1
+* State at which program starts:
+start indicator
+* A state transition will be caused if a program is in a given state and a specific input is given.
+    * The transition is indicated by an arrow and the condition is defined above: where a = e.g. button 1 pushed
+* Final states are marked by a double circle. (Optional)
+    * Often there are no transitions from a halting state to another, but this isn't a requirement.
+    * halting states are states that are accepted to be the last state of the program.
+* Only S1 is accepted to be the last state of the program here.
+
+Figure 1
+
+## Finite State Machines with Output
+aka "Mealy Machine"
+* The output is noted on the right side of the input condition, separated by a vertical line.
+=> When transitioning between states the program can give an output.
+
+## State Transition Tables
+
+### For Finite State Machine:
+e.g. when the current state = S1 and input = b next state = S2
+
+| | **current state** | |
+| :--- | :---: | :---: |
+| | **S1** | **S2** |
+| **Input { a** | S1 | S1 |
+| **Input { b** | S2 | S2 |
+<br>
+for "Figure 1", see above
+
+### For Mealy Machine:
+=> $$ \text{number of columns} = \text{number of states} \times \text{variables} $$
+
+| | | | | |
+| :--- | :---: | :---: | :---: | :---: |
+| **Current State** | S1 | S1 | S2 | S2 |
+| **Input Bit** | 0 | 1 | 0 | 1 |
+| **Next State** | S1 | S2 | S2 | S2 |
+| **Output Bit** | 0 | 1 | 1 | 0 |
+
+---
+15.01
+-6
+0110
+1010 ✓
+
+Exam Style #4

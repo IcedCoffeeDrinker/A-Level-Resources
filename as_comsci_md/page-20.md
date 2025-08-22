@@ -1,0 +1,82 @@
+# 5.1 System software - OS
+
+## System Software:
+- programs that help the computer run
+- e.g. boot loader or OS
+
+## Application Software:
+- programs that perform specific tasks to serve the user
+- e.g. Browser, Computer Games, etc.
+
+## Operating System (OS)
+- The software that manages the computer system and links other software with hardware
+- => Provides an environment for other programs
+
+### Basic Tasks:
+- managing resource allocation
+- providing access to hardware (only OS has direct access)
+- provide a user interface (e.g. CLI or GUI)
+- Provide a layer of security
+
+## User-System Interface
+- provides the user with access to the computer's resources
+- Allows for input and output
+
+### Command-Line Interface (CLI):
+- text based terminal
+- simple but inconvenient
+
+### Graphical User Interface (GUI):
+- E.g. a desktop: highly functional
+- high level of abstraction
+- resource intensive
+
+## Program-Hardware Interface
+- The OS bridges abstractly written programs with the specific underlying system.
+- The OS enables programs to be run
+    - by e.g. loading it into memory
+
+## Resource Management
+- A running program is called a 'process'
+- The OS performs multitasking by scheduling and interrupting multiple processes
+    - There are usually more processes than available CPUs
+- The OS resolves conflicts between processes
+    - e.g. if both require the same resource
+
+## Memory Management
+- **Memory protection:** prevent multiple processes from using the same memory
+- **Optimize resource usage:** The memory organization scheme optimizes how limited memory is used for best performance
+- **Decides Memory Priority:** Which processes should be in memory, and where
+
+## Device Management
+- The OS installs device driver software
+    - Drivers remove the complexity from communicating with devices
+- Controls the device usage by processes
+
+## File Management
+- OS determines:
+    - file naming conventions
+    - directory structures
+    - access control mechanisms
+
+## Security Management
+- data recovery -> creates backups
+- data privacy
+- makes intrusion difficult
+
+## Error Detection & Recovery
+- is able to shut down faulty processes
+- provides error diagnostics
+- orderly shuts down system on major issues and prevents data loss.
+
+---
+
+## Exam style questions
+1.  a)
+    i. Graphical user interface, Command line interface (GUI; CLI) *on spot bro*
+    ii. Keyboard & Mouse; only keyboard, touch *mouse = pointer, you got all*
+    
+    b) 
+    **Error Management:** The computer gracefully shuts down on major errors to prevent data loss, and provides diagnostics for any errors that occur.
+    
+    **File Management:** The OS determines file extensions, directory structures and how files are controlled (accessed).

@@ -1,0 +1,131 @@
+# 1.4 Multimedia
+
+## Representing images in binary
+- Bitmap: an image stored as a 2d array of pixels
+- Pixel: an individual picture element
+    = the smallest distinguishable feature
+- Monitor: VDU (Visual display unit)
+- resolution: width x height, but also can be eg. ppi (pixels per inch)
+    -> usually describes pixel amount / density
+- representing an analog picture in binary: a grid is placed over the image and each color gets mapped to a binary representation (eg. 1 or 0 for black & white, or multiple bits for color)
+- color depth: number of allocated bits for each pixel's color (eg. color depth of 3 is $2^3$ possibilities)
+- increase in resolution and color depth increases filesize
+
+> Size (b) = W x H x D (width, height, color depth)
+> in pixels, in bits
+> $$ \text{Size (B)} = \frac{W \times H \times D}{8} $$
+
+- Metadata: data about data
+    - required to display an image properly, stored alongside the raw image data
+    - Required:
+        Filename, file format, color depth, resolution
+    - Non-Required: camera details, etc.
+
+---
+## Representation of Sound in Binary
+
+### Analogue vs. Digital
+- Analog is continuous, has no defined range -> often shown as wave
+- Digital data has defined ranges and only is able to show discrete values
+
+### Digitising Sound
+- Sampling: recording a signal at regular intervals
+- Sampling frequency: number of samples taken per second of audio in Hz
+    -> Higher Sampling Frequency -> better sound accuracy but larger file
+- Sample Size: How many bits are available for each sample (eg. sample size of 3 is $2^3$ steps so only 8 values)
+    -> Sample size corresponds to levels of loudness
+- Bit rate: number of bits used per second
+    - Bit rate (bps) = Sampling frequency (Hz) x Sample size (b)
+- Total Filesize = Bit rate (b) x Time (s)
+
+`Sampling Frequency = Sampling Rate` | Synonyms
+`Sample Size = Sample Resolution` |
+
+### Advantages of Analog Sound:
++ more accurate representation of sound
++ can be represented by voltage strength
+- vulnerable to noise, hard for long-distance transmission
++ high information density
+- needs amplification
+
+### Advantages of Digital Sound:
+-> less influenced by noise: clear 1/0 data transmission
+- less accurate, lower information density
+- great for binary systems and long-distance transmission
+- can carry much more information easily (if bit rate is high enough)
+    -> able to carry two waves at once (eg.)
+
+---
+## Vector graphics
+- Images stored as vector graphic files consist of many individual drawing objects
+- each drawing object has properties
+- those objects, with their properties, are stored in a drawing list
+- properties contain attributes such as geometrical shape, color, and shape-specific information
+- drawing Objects are defined relative to an imaginary drawing canvas, not with an explicit position
+- vector images are therefore scalable
+- for a vector graphic to be displayed on a conventional display it has to be transformed into a bitmap
+
+```
+Drawing list [
+    DrawingObject_0(x,y, etc.)
+    DrawingObject_1(x,y, color, ...)
+    ...
+]
+```
+
+---
+## Worked Example 1.04
+- bit depth of 8
+- 72 dpi
+- 5x3 inches
+- How many bits for this image?
+
+> $8 \times 3 = 24$ bits for color
+> $5 \times 3 = 15$ square inches
+> $72^2 =$ pixels per square inch
+> $$ \frac{24 \times 15 \times 72^2}{8} = 233,280 \text{ bytes} $$
+> $$ \frac{233,280}{1024} = 227.81 \text{ KiB} $$
+
+---
+## Book: On Audio Sampling
+
+### sound encoder:
+(Diagram shows: microphone -> band-limiting filter -> ADC (Analog-to-digital converter (Sampler)) -> digital output)
+- band-limiting filter -> removes high frequencies
+
+### Nyquist's theorem:
+- The sampling frequency must at least be twice that of the highest frequency
+
+---
+## End of topic review
+p. 24, 25
+2a, 2b, 3, 5ab
+
+### 2a
+i. For vector graphics all the geometric components of an image are stored in form of drawing objects in a drawing list. Those drawing objects have attributes that define eg. color, size, shape, etc.
+ii. For a bitmap image pixels are stored with their color attribute in a 2D array.
+iii. Vector graphics has better image quality when scaled up, as objects are shapes existing merely relative to an imaginary canvas, whilst bitmaps have a pre-defined resolution that doesn't scale.
+
+### 2b
+i. $$ \frac{640 \times 480 \times 16}{8 \times 1024} = 600 \text{ KiB} $$
+ii. This is an approximation, as no metadata is included in the result.
+
+### 3a
+i. It's required to sample the analog measurements into binary values, which can be stored or transmitted by digital systems.
+ii. (A graph of an analog wave with discrete sample points marked on it. The Y-axis is labeled "amplitude" and the X-axis is labeled "sample steps (time) in s".)
+
+The sampling rate describes how often the analog signal is measured a second. It determines how detailed the frequency is captured.
+
+The sample resolution describes the number of steps the amplitude can be represented as.
+
+### 3b
+i. This would be the band limiter.
+ii. It filters out high frequencies which are not hearable by humans and might cause damage to the ear in some cases or [cause issues with the digital systems.] -> Nyquist's theorem wouldn't be satisfied by any sensible value.
+
+### 5a
+-> 3a ii
+
+### 5b
+i. $$ \frac{44100 \times 16 \times 2}{8} = 176400 \text{ bytes} $$
+ii. Calculate number of bytes required per second and multiply by total time in seconds then I would divide by 1000 to get to KB and divide by 1000 again to get a result in MB.
+$$ \frac{\text{sample frequency} \times \text{sample resolution} \times \text{number of tracks}}{8 \times 1000 \times 1000} = \text{Total size in MB} $$

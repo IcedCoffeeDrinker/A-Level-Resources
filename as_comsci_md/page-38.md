@@ -1,0 +1,52 @@
+# 10.3 Text Files
+
+> Text Files play the significant role of storing data past the point where the program stops
+
+All syntax on how to read, edit, and append is on Notion.
+
+## End-OF-File / End-OF-Line Marker
+
+example.txt:
+```
+Hello, this is the first line EOL-Marker
+This is another line EOL-Marker
+This will be the last line EOL-Marker
+EOF-Marker
+```
+
+```
+OPENFILE "test.txt" FOR READ
+WHILE NOT EOF("test.txt") DO
+    ...
+```
+> The EOF() function checks if the cursor inside test.txt has already reached the EOF marker
+
+> It's better to use pre-condition loops instead of post-condition loops as the file might be empty and the EOF marker is reached immediately
+
+---
+
+## 13.08
+
+1.  ```pseudocode
+    DECLARE board:ARRAY[0:2, 0:2] OF CHAR
+    ... game occurs, all fields are filled
+    
+    OPENFILE "lastGame.txt" FOR WRITE
+    DECLARE newLine : STRING
+    FOR row <- 0 TO 2
+        newLine <- ""
+        FOR column <- 0 TO 2
+            newLine <- newLine & board[row, column]
+        WRITEFILE "lastGame.txt" newline
+    CLOSEFILE "lastGame.txt"
+    ```
+2.  ```pseudocode
+    OPENFILE "lastGame.txt" FOR READ
+    DECLARE board:ARRAY[0:2, 0:2] OF CHAR
+    DECLARE newLine : STRING
+    FOR row <- 0 TO 2
+        READFILE "lastGame.txt" newLine
+        FOR column <- 0 TO 2
+            board[row, column] <- MID(newLine, column+1, 1)
+    CLOSEFILE "lastGame.txt"
+    

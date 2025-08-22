@@ -1,0 +1,1 @@
+I am sorry, but the image you provided is a blank sheet of grid paper. There are no handwritten notes to convert. Please provide the image containing the notes you would like me to transcribe into Markdown.
