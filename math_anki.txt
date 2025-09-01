@@ -1,0 +1,177 @@
+Derivative notation — common forms | \(y' ,=, \dfrac{dy}{dx} ,=, \dfrac{d}{dx},y,\quad y'' ,=, \dfrac{d^2y}{dx^2}\)
+Change of base for logs | \(\log_a x ,=, \dfrac{\ln x}{\ln a}\)
+Definite integral definition | \(\displaystyle \int_{a}^{b} f(x),dx ,=, F(b)-F(a)\ \text{ where } F' = f\)
+Parametric derivative formula | \(\displaystyle \frac{dy}{dx} ,=, \frac{\frac{dy}{dt}}{\frac{dx}{dt}}\)
+
+Limit \(\dfrac{\sin x}{x}\) as \(x\to 0\) | \(1\)
+Limit \(\dfrac{\tan x}{x}\) as \(x\to 0\) | \(1\)
+Limit \(\dfrac{e^x-1}{x}\) as \(x\to 0\) | \(1\)
+Limit \(\dfrac{\ln(1+x)}{x}\) as \(x\to 0\) | \(1\)
+Small-angle: \(\sin x\) | \(\sin x \approx x\) (radians)
+Small-angle: \(\tan x\) | \(\tan x \approx x\) (radians)
+Small-angle: \(\cos x\) | \(\cos x \approx 1-\dfrac{x^2}{2}\)
+Maclaurin: \(e^x\) first terms | \(e^x = 1 + x + \dfrac{x^2}{2!} + \dfrac{x^3}{3!} + \cdots\)
+Maclaurin: \(\ln(1+x)\) first terms | \(\ln(1+x) = x - \dfrac{x^2}{2} + \dfrac{x^3}{3} - \cdots,\ \lvert x\rvert<1\)
+Maclaurin: \(\sin x\) first terms | \(\sin x = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!} - \cdots\)
+Maclaurin: \(\cos x\) first terms | \(\cos x = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} - \cdots\)
+
+Derivative of \(x^n\) | \(\dfrac{d}{dx}(x^n) = n x^{n-1}\) (real \(n\))
+Derivative of \(e^x\) | \(\dfrac{d}{dx}(e^x)=e^x\)
+Derivative of \(a^x\) | \(\dfrac{d}{dx}(a^x)=a^x\ln a\)
+Derivative of \(\ln x\) | \(\dfrac{d}{dx}(\ln x)=\dfrac{1}{x}\) for \(x>0\)
+Derivative of \(\sin x\) | \((\sin x)'=\cos x\)
+Derivative of \(\cos x\) | \((\cos x)'=-\sin x\)
+Derivative of \(\tan x\) | \((\tan x)'=\sec^2 x\)
+Derivative of \(\sec x\) | \((\sec x)'=\sec x,\tan x\)
+Derivative of \(\csc x\) | \((\csc x)'=-\csc x,\cot x\)
+Derivative of \(\cot x\) | \((\cot x)'=-\csc^2 x\)
+Product rule | \((uv)'=u'v+uv'\)
+Quotient rule | \(\left(\dfrac{u}{v}\right)'=\dfrac{u'v-uv'}{v^2}\)
+Chain rule | \(\dfrac{d}{dx},f(g(x)) = f'(g(x)),g'(x)\)
+Implicit diff — key idea | Differentiate both sides; treat \(y\) as \(y(x)\); collect \(\dfrac{dy}{dx}\)
+Implicit diff example \(x^2+y^2=25\) | \(2x+2y,y'=0 \Rightarrow y'=-\dfrac{x}{y}\)
+Parametric second derivative | \(\displaystyle \frac{d^2y}{dx^2}=\frac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{\frac{dx}{dt}}\)
+Stationary point condition | Solve \(y'=0\)
+Classify stationary point with \(y''\) | \(y''>0\) min,\ \(y''<0\) max,\ \(y''=0\) test further (sign change/higher order)
+
+Integral of \(x^n\) (\)n\neq -1\)) | \(\displaystyle \int x^{n},dx=\dfrac{x^{n+1}}{n+1}+C\)
+Integral of \(\dfrac{1}{x}\) | \(\displaystyle \int \dfrac{1}{x},dx=\ln \lvert x\rvert + C\)
+Integral of \(e^x\) | \(\displaystyle \int e^x,dx = e^x + C\)
+Integral of \(a^x\) | \(\displaystyle \int a^x,dx = \dfrac{a^x}{\ln a} + C\)
+Integral of \(\sin x\) | \(\displaystyle \int \sin x,dx = -\cos x + C\)
+Integral of \(\cos x\) | \(\displaystyle \int \cos x,dx = \sin x + C\)
+Integral of \(\sec^2 x\) | \(\displaystyle \int \sec^2 x,dx = \tan x + C\)
+Integral of \(\csc^2 x\) | \(\displaystyle \int \csc^2 x,dx = -\cot x + C\)
+Integral of \(\sec x,\tan x\) | \(\displaystyle \int \sec x,\tan x,dx = \sec x + C\)
+Integral of \(\csc x,\cot x\) | \(\displaystyle \int \csc x,\cot x,dx = -\csc x + C\)
+Integral of \(\tan x\) | \(\displaystyle \int \tan x,dx = -\ln \lvert \cos x\rvert + C\)
+Integral of \(\sec x\) | \(\displaystyle \int \sec x,dx = \ln \lvert \sec x + \tan x\rvert + C\)
+Definite integral fundamental theorem | \(\displaystyle \int_a^b f(x),dx = F(b)-F(a)\) where \(F'=f\)
+Swap limits of integration — effect | \(\displaystyle \int_b^a f(x),dx = -\int_a^b f(x),dx\)
+Area vs signed integral | Area requires non-negative pieces; split at zeros or take absolute value
+Substitution — core step | Let \(u=g(x)\) so \(du=g'(x),dx\) and rewrite integral in \(u\)
+Substitution example \(\int \dfrac{2x}{x^2+1}dx\) | With \(u=x^2+1\), integral \(=\ln(x^2+1)+C\)
+Integration by parts formula | \(\displaystyle \int u,dv = uv - \int v,du\)
+LIATE heuristic (choose \(u\)) | Priority: Log \(\to\) Inverse trig \(\to\) Algebraic \(\to\) Trig \(\to\) Exponential
+By parts example \(\int x e^x dx\) | \(x e^x - e^x + C\)
+By parts example \(\int x\cos x,dx\) | \(x\sin x + \cos x + C\)
+Proper rational for partial fractions | Degree numerator \(<\) degree denominator
+Partial fractions — distinct linear factors | \(\dfrac{A}{x-a}+\dfrac{B}{x-b}+\cdots\)
+Partial fractions — repeated linear factor | Include \(\dfrac{A}{x-a}+\dfrac{B}{(x-a)^2}+\cdots\)
+Partial fractions — irreducible quadratic | \(\dfrac{Ax+B}{x^2+bx+c}\)
+Standard form \(\int \dfrac{1}{x^2+a^2}dx\) | \(\dfrac{1}{a}\arctan!\left(\dfrac{x}{a}\right)+C\)
+Standard form \(\int \dfrac{1}{x^2-a^2}dx\) | \(\dfrac{1}{2a}\ln!\left\lvert \dfrac{x-a}{x+a}\right\rvert + C\)
+Standard form \(\int \dfrac{1}{ax+b}dx\) | \(\dfrac{1}{a}\ln\lvert ax+b\rvert + C\)
+Trig identity \(\tan^2 x\) | \(\tan^2 x = \sec^2 x - 1\)
+Trig identity \(\sin 2x\) | \(\sin 2x = 2\sin x\cos x\)
+Trig power reduction \(\cos^2 x\) | \(\cos^2 x = \dfrac{1+\cos 2x}{2}\)
+Trig power reduction \(\sin^2 x\) | \(\sin^2 x = \dfrac{1-\cos 2x}{2}\)
+Trig integration — tactic for \(\tan\) | Convert to \(\dfrac{\sin x}{\cos x}\) and use \(u=\cos x\)
+
+Separable DE — method | \(\dfrac{dy}{dx}=f(x)g(y)\ \Rightarrow\ \int \dfrac{1}{g(y)},dy=\int f(x),dx + C\)
+Linear DE standard form | \(\dfrac{dy}{dx} + P(x),y = Q(x)\)
+Integrating factor for linear DE | \(\mu(x)=e^{\int P(x),dx}\)
+Linear DE solution form | \(y,\mu(x)=\int \mu(x),Q(x),dx + C\)
+Exponential growth/decay solution | \(\dfrac{dy}{dt}=k y \Rightarrow y=A e^{kt}\)
+Initial value problem — constant \(C\) | Use \((x_0,y_0)\) to solve for \(C\) after general solution
+
+Area under curve (\)x\)-axis) | \(\displaystyle \text{Area}=\int_a^b y,dx\)
+Area between curves | \(\displaystyle \int_a^b \big(y_{\text{top}}-y_{\text{bottom}}\big),dx\)
+Parametric area formula | \(\displaystyle \int y,dx = \int y(t),x'(t),dt\)
+Volume of revolution about \(x\)-axis | \(\displaystyle V=\pi \int_a^b y^2,dx\)
+Volume of revolution about \(y\)-axis | \(\displaystyle V=\pi \int_c^d x^2,dy\)
+
+Complete the square — general | \(ax^2+bx+c=a!\left(x+\dfrac{b}{2a}\right)^2 + c - \dfrac{b^2}{4a}\)
+Binomial theorem (integer \(n\)) | \((a+b)^n=\displaystyle \sum_{k=0}^{n} \binom{n}{k},a^{n-k}b^k\)
+Log law: product | \(\ln(xy)=\ln x + \ln y\)
+Log law: quotient | \(\ln!\left(\dfrac{x}{y}\right)=\ln x - \ln y\)
+Log law: power | \(\ln(x^k)=k\ln x\)
+Log change of base | \(\log_a x = \dfrac{\ln x}{\ln a}\)
+Pythagorean trig identity | \(\sin^2 x + \cos^2 x = 1\)
+Trig identity with \(\tan\) | \(1+\tan^2 x=\sec^2 x\)
+Trig identity with \(\cot\) | \(1+\cot^2 x=\csc^2 x\)
+Angle addition: \(\sin(\alpha!\pm!\beta)\) | \(\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta\)
+Angle addition: \(\cos(\alpha!\pm!\beta)\) | \(\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta\)
+Double angle: \(\sin 2x\) | \(\sin 2x=2\sin x\cos x\)
+Double angle: \(\cos 2x\) forms | \(\cos 2x=\cos^2 x-\sin^2 x=1-2\sin^2 x=2\cos^2 x-1\)
+Half-angle: \(\sin^2 x\) | \(\sin^2 x=\dfrac{1-\cos 2x}{2}\)
+Half-angle: \(\cos^2 x\) | \(\cos^2 x=\dfrac{1+\cos 2x}{2}\)
+
+Exam tip — use radians in trig calculus | Trig derivatives/series assume radians
+Exam tip — constant of integration | Include \(+C\) for every indefinite integral
+Exam tip — domains in logs | Use \(\ln \lvert\cdot\rvert\) to handle sign; mind domains
+Exam tip — state the method | Name substitution/parts/IF/partial fractions before working
+Exam tip — classify stationary points | Provide coordinates and classification (via \(y''\) or sign test)
+Exam tip — change limits under substitution | When substituting in a definite integral, convert the limits to the new variable
+Exam tip — properness before partial fractions | Ensure numerator degree \(<\) denominator degree
+Exam tip — param/implicit pitfall | Don’t forget to divide by \(\dfrac{dx}{dt}\) when finding \(\dfrac{dy}{dx}\)
+Exam tip — units | Include units only in modelling/mechanics contexts
+
+Differentiate \(\ln(3x^2+1)\) | \(\dfrac{d}{dx}\ln(3x^2+1)=\dfrac{6x}{3x^2+1}\)
+Differentiate \(e^{2x}\sin x\) | \(2e^{2x}\sin x + e^{2x}\cos x\)
+Implicit differentiate \(xy=1\) for \(y'\) | \(y'=-\dfrac{y}{x}\)
+Parametric: \(x=t^2,,y=t^3\) — \(dy/dx\) | \(\dfrac{dy}{dx}=\dfrac{3t^2}{2t}=\dfrac{3}{2}t\)
+Integrate \(\dfrac{\sin x}{\cos x}\) | With \(u=\cos x\), result \(=-\ln\lvert \cos x\rvert + C\)
+Integrate \(x e^x\) | \(x e^x - e^x + C\)
+Solve \(y'+2y=6\) (general solution) | \(\mu=e^{2x}\), so \((ye^{2x})'=6e^{2x}\Rightarrow y=3+Ce^{-2x}\)
+
+Common derivative table (trig/expo/log) | \(\sin!\to!\cos,\ \cos!\to!-,\sin,\ \tan!\to!\sec^2,\ e^{kx}!\to!k e^{kx},\ \ln x!\to!1/x\)
+Common integral table (expo/trig) | \(\displaystyle \int e^{kx}dx=\dfrac{e^{kx}}{k}!+!C,\ \int \cos kx,dx=\dfrac{\sin kx}{k}!+!C,\ \int \sin kx,dx=-\dfrac{\cos kx}{k}!+!C\)
+Volume formulas summary | \(V_x=\pi!\int y^2 dx,\quad V_y=\pi!\int x^2 dy\)
+
+Chain rule quick pattern example | \(\dfrac{d}{dx}\big[\ln(3x^2+1)\big]=\dfrac{6x}{3x^2+1}\)
+Product rule quick pattern example | \(\dfrac{d}{dx}\big[e^{2x}\sin x\big]=2e^{2x}\sin x+e^{2x}\cos x\)
+Quotient rule quick pattern | \(\left(\dfrac{u}{v}\right)'=\dfrac{u'v-uv'}{v^2}\)
+IF method — recognition | Linear form \(y'+P(x)y=Q(x)\ \Rightarrow\ \mu=e^{\int P}\)
+
+Power-reduction integration trick for \(\sin^2 x\) | Use \(\sin^2 x=\dfrac{1-\cos 2x}{2}\) then integrate termwise
+Power-reduction integration trick for \(\cos^2 x\) | Use \(\cos^2 x=\dfrac{1+\cos 2x}{2}\) then integrate termwise
+Convert \(\tan\)/\)\cot\) to \(\sin\)/\)\cos\) | \(\tan x=\dfrac{\sin x}{\cos x},\ \cot x=\dfrac{\cos x}{\sin x}\)
+
+Substitution — change limits example | If \(x\mapsto u\), then \(x=a,b\) map to \(u(a),u(b)\); evaluate in \(u\) and avoid back-sub
+
+Partial fractions — integrate to logs | Linear factors integrate to \(\ln\lvert\cdot\rvert\) terms
+Partial fractions — integrate to \(\arctan\) | Irreducible quadratic leads to \(\arctan\) form after completing square
+
+Separable DE — solve outline | Separate, integrate both sides, add \(C\), solve for \(y\) if possible
+Linear DE — solve outline | Compute \(\mu\), multiply, integrate RHS, divide by \(\mu\)
+
+Area between curves — orientation | Use top minus bottom (in \(x\)); if in \(y\), use right minus left
+
+Stationary points — first derivative test | Check sign change of \(y'\) around critical point
+
+Definite integral — sign vs area | Negative where \(f<0\); area is sum of magnitudes on subintervals
+
+Check: absolute values in log integrals | Write \(\ln \lvert \cdot \rvert\) (use \(\lvert\cdot\rvert\))
+
+Radians — small-angle justification | Limits \(\dfrac{\sin x}{x}\to 1\) and \(\dfrac{\tan x}{x}\to 1\) hold in radians
+
+Maclaurin — use cases | Local approximations and limits near \(x=0\)
+
+By parts — when to use | Products where derivative simplifies (e.g., algebraic \(\times\) expo/trig)
+
+LIATE — example choice in \(\int x\ln x,dx\) | Take \(u=\ln x,\ dv=x,dx\)
+
+Parametric — slope at a parameter \(t\) | \(\dfrac{dy}{dx}=\dfrac{y'(t)}{x'(t)}\)
+
+Implicit — derivative of \(y\) functions of \(x\) | Use chain rule: \(\dfrac{d}{dx},y^n = n y^{n-1} y'\)
+
+Growth/decay — half-life/ doubling time | \(t_{1/2}=\dfrac{\ln 2}{\lvert k\rvert}\),\quad \(t_{\text{double}}=\dfrac{\ln 2}{k}\)
+
+Volume of revolution — shell vs disc (syllabus) | Use disc/washer: \(V=\pi!\int y^2 dx\) (about \(x\)-axis) or \(V=\pi!\int x^2 dy\) (about \(y\)-axis)
+
+Completing square — purpose | To integrate/solve quadratics or identify vertex
+
+Binomial theorem — coefficient | Coefficient of \(a^{n-k}b^k\) is \(\binom{n}{k}\)
+
+Log basics — domain | \(\ln x\) defined for \(x>0\)
+
+Trig Pythagorean — rearranged | \(\cos^2 x=1-\sin^2 x\),\quad \(\sin^2 x=1-\cos^2 x\)
+
+Double angle — choose form by need | For integrals of \(\sin^2 x\) or \(\cos^2 x\), use half-angle versions
+
+Checklist — include \(+C\)? | Yes, for every indefinite integral
+
+Checklist — classify critical points | Use \(y''\) or sign test and state nature clearly
+
+Checklist — substitution limits | Change limits to new variable to avoid back-substitution errors

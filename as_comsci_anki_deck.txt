@@ -1,0 +1,1215 @@
+A computer system's basic functions include input, processing, storage, and {{c1::output}}.
+The {{c1::Central Processing Unit (CPU)}} is the component that processes data and executes program instructions.
+A {{c1::program}} provides the CPU with a set of instructions on how to handle inputs and produce outputs.
+An embedded system is a special-purpose computer integrated into a {{c1::larger mechanical or electrical system}}.
+Embedded systems are often controlled by single chips called {{c1::microcontrollers}}.
+A key characteristic of an embedded system is that it is designed to perform a {{c1::limited number of specific tasks}}.
+A major benefit of embedded systems for mass production is their {{c1::low cost}}.
+A significant drawback of embedded systems is that they are typically {{c1::difficult to reprogram}}.
+Network-connected embedded systems can be a security risk due to {{c1::poor security standards}}, making them vulnerable to botnets.
+Memory that is directly accessible by the CPU, such as RAM and cache, is known as {{c1::primary storage}}.
+Long-term, non-volatile storage for files and applications, like an SSD or HDD, is known as {{c1::secondary storage}}.
+Primary storage is generally more expensive and {{c1::faster}} than secondary storage.
+Secondary storage is generally cheaper and {{c1::slower}} than primary storage, but offers higher capacity.
+{{c1::Integral storage}} refers to storage devices that are built into the computer, like an internal hard drive.
+{{c1::External storage}} refers to peripheral devices that can be easily connected and disconnected, such as a USB flash drive.
+{{c1::Remote storage}} is accessed over a network and includes technologies like cloud storage or a Storage Area Network (SAN).
+{{c1::Volatile memory}} loses its contents when the power is turned off.
+{{c1::Non-volatile memory}} retains its contents even when the power is turned off.
+RAM and cache memory are examples of {{c1::volatile}} memory.
+ROM is an example of {{c1::non-volatile}} memory.
+RAM stands for {{c1::Random Access Memory}}.
+Programs and data currently in use are loaded into {{c1::RAM}} for fast access by the CPU.
+The time to access any location in RAM is roughly the same, which is why it's called {{c1::'Random Access'}}.
+Dynamic RAM (DRAM) is made of {{c1::capacitors}} that require constant refreshing to preserve their data.
+Static RAM (SRAM) is made of {{c1::flip-flop circuits}} that hold data as long as power is supplied, without needing to be refreshed.
+DRAM has a higher storage density and is cheaper than SRAM, making it suitable for {{c1::main memory}}.
+SRAM is faster but more expensive than DRAM, making it suitable for {{c1::cache memory}}.
+ROM stands for {{c1::Read-Only Memory}}.
+ROM is typically used to store a computer's {{c1::firmware}} or bootstrap loader.
+{{c1::PROM (Programmable ROM)}} is a type of ROM that can be programmed only once by a user.
+{{c1::EPROM (Erasable PROM)}} can be erased with ultraviolet light and reprogrammed, but must first be removed from the circuit.
+{{c1::EEPROM (Electrically Erasable PROM)}} can be erased and reprogrammed electronically without being removed from the circuit.
+{{c1::Cache memory}} is a small amount of very fast SRAM that stores frequently used instructions and data for the CPU.
+In the memory hierarchy, speed {{c1::increases}} as one moves from main memory to cache, and then to CPU registers.
+A {{c1::buffer}} is a temporary memory area used to compensate for differences in speed between two devices during data transfer.
+The use of a buffer helps to ensure a {{c1::smooth and steady data stream}} between components operating at different speeds.
+Ethics can be defined as collectively agreed upon {{c1::moral principles}} that guide decisions between right and wrong.
+In computer science, ethics are often formalized as a set of {{c1::rules of conduct}} for professionals.
+A {{c1::code of conduct}} is a set of guidelines provided by professional organizations to steer ethical decision-making.
+The BCS, or {{c1::British Computer Society}}, is a professional body that provides an ethical code of conduct for computing professionals.
+The ACM, or {{c1::Association for Computing Machinery}}, is a professional body that provides an ethical code of conduct.
+The IEEE, or {{c1::Institute of Electrical and Electronics Engineers}}, is a professional body that provides an ethical code of conduct.
+A primary principle in many computing ethics codes is that professionals should always act in the {{c1::public interest}}.
+According to ethical codes, software engineers should act in the best interests of their {{c1::client and employer}}, consistent with the public interest.
+A key ethical principle is that software products and modifications must meet the highest {{c1::professional standards}} possible.
+Computing professionals must maintain {{c1::integrity and independence}} in their professional judgement.
+Managers and leaders in software engineering have an ethical duty to promote an {{c1::ethical approach}} to management.
+A professional duty for software engineers is to advance the integrity and reputation of the {{c1::profession}} in a way that is consistent with the public interest.
+Ethical codes often require professionals to be fair and {{c1::supportive}} to their colleagues.
+Software engineers are expected to practice {{c1::lifelong learning}} to maintain their professional competence.
+Most ethical codes emphasize that the {{c1::public good}} or public safety is the central consideration.
+Ethical codes provide fundamental principles, but professionals are expected to use their own {{c1::judgement}} in applying them.
+If a professional is unsure about an ethical issue, they are advised to {{c1::seek advice}} or guidance.
+It can be very difficult for individuals to speak out against unethical practices within a {{c1::powerful corporation}} due to potential harm.
+The BCS Code of Conduct is structured around four main areas: Public Interest, Professional Competence and Integrity, Duty to the Relevant Authority, and {{c1::Duty to the Profession}}.
+Under the BCS code, the public interest includes having due regard for {{c1::public health}}, security, privacy, and wellbeing.
+The BCS code requires professionals to recognize and protect {{c1::intellectual property rights}}.
+As part of serving the public interest, the BCS code requires professionals to not engage in {{c1::discrimination}}.
+The BCS code's "Public Interest" section promotes {{c1::equal access}} to the benefits of software for all members of society.
+"Professional Competence and Integrity" requires that professionals only undertake work they are {{c1::competent}} to do.
+To maintain professional competence, individuals should continuously {{c1::develop their skills and knowledge}}.
+An aspect of professional integrity is to not offer or accept {{c1::bribes}} or other inducements.
+A professional's "Duty to the Relevant Authority" involves carrying out their instructions while exercising personal {{c1::professional judgement}}.
+Ethical duties to an employer or authority include the need to avoid any {{c1::conflict of interest}}.
+A professional has a duty to accept {{c1::professional responsibility}} for their work.
+Professionals must not misrepresent or withhold information, nor disclose {{c1::confidential information}} without authorization.
+The "Duty to the Profession" involves upholding the {{c1::reputation and good standing}} of the profession.
+A professional duty is to encourage and support fellow members in their {{c1::professional development}}.
+The BCS code requires professionals to treat colleagues with {{c1::respect}} and without discrimination.
+As part of their duty to the profession, members should seek to improve {{c1::professional standards}} through participation in their development and enforcement.
+Program maintenance is the ongoing process of keeping software working correctly and up-to-date with changing {{c1::customer needs}}.
+{{c1::Corrective maintenance}} is performed to fix errors or bugs discovered in a program after its initial release.
+Errors requiring corrective maintenance are often found in {{c1::rarely used}} sections of the code long after the initial release.
+The process of applying a software 'patch' to fix a newly found bug is an example of {{c1::corrective maintenance}}.
+{{c1::Adaptive maintenance}} involves modifying a program to keep it compatible with a changing external environment.
+Updating a program to work with a new version of an operating system is an example of {{c1::adaptive maintenance}}.
+Modifying software to handle changes in external data formats or APIs is a form of {{c1::adaptive maintenance}}.
+When a program's specification changes due to external requirements, {{c1::adaptive maintenance}} is needed to update it.
+{{c1::Perfective maintenance}} is performed to improve a program's performance or usability, even when it already functions correctly.
+The main goal of perfective maintenance is to make the software better, for example, by making it {{c1::faster or more efficient}}.
+Implementing a more effective algorithm to improve processing speed is an example of {{c1::perfective maintenance}}.
+Refactoring code to improve its structure and readability without changing its external behavior is a form of {{c1::perfective maintenance}}.
+Writing {{c1::maintainable code}} is essential for making future updates and corrections easier and less error-prone.
+Using consistent {{c1::indentation}} helps to visually represent the logical structure of the code, improving maintainability.
+Employing clear and {{c1::descriptive names}} for variables and subroutines is a key practice for writing maintainable code.
+Adding {{c1::comments}} to code is crucial for explaining the purpose of complex sections or any unusual programming practices.
+A {{c1::syntax error}} occurs when a program statement violates the grammatical rules of the programming language.
+A compiler will fail to produce object code if the source code contains any {{c1::syntax errors}}.
+An interpreter will halt execution when it encounters a line containing a {{c1::syntax error}}.
+A {{c1::run-time error}} is an error that causes a program to halt or crash during its execution.
+A run-time error can be caused by an illegal mathematical operation, such as {{c1::division by zero}}.
+A run-time error may occur if an {{c1::infinite loop}} consumes all available memory (RAM).
+Attempting to access a variable that has not been defined can cause a {{c1::run-time error}}.
+Unlike syntax errors, {{c1::run-time errors}} are not detected by the translator before the program is executed.
+A {{c1::logic error}} is a flaw in a program's algorithm that causes it to produce incorrect or unexpected results without crashing.
+Logic errors are not caught by the translator, requiring {{c1::testing}} by comparing actual output with expected output.
+In {{c1::stub testing}}, dummy procedures are used to output a message confirming they were called, allowing high-level program logic to be tested first.
+{{c1::Black-box testing}} involves testing a program based on its specifications without any knowledge of the internal source code.
+For black-box testing, {{c1::normal data}} is a set of valid inputs that the program is expected to process correctly.
+For black-box testing, {{c1::extreme or boundary data}} is used to test values at the very limits of the valid input range.
+For black-box testing, {{c1::erroneous or abnormal data}} consists of invalid inputs that the program should reject.
+{{c1::White-box testing}} is a method where the tester uses knowledge of the internal source code to design test cases.
+The goal of white-box testing is to ensure that every possible {{c1::path}} through the code's logic is executed at least once.
+A {{c1::dry run}} is the process of manually stepping through an algorithm line-by-line to check its logic, often using a trace table.
+A {{c1::trace table}} is used during a dry run to systematically record the changing values of variables and any program output.
+When using a trace table for a loop, a {{c1::new row}} should be used for each iteration.
+{{c1::Module testing}} is the process of testing individual subroutines or components of a program in isolation.
+{{c1::Integrity testing}} checks if different program modules work correctly together when they are combined and interact.
+{{c1::Alpha testing}} is the phase where a nearly complete product is tested in-house by the development organization's own employees.
+{{c1::Acceptance testing}} is performed by the client or end-user to confirm that the software meets all their specified requirements.
+If acceptance testing is successful, the client will formally {{c1::sign off}} on the software, indicating their approval.
+{{c1::Beta testing}} involves releasing a pre-release version of software to a limited, external audience for real-world evaluation.
+The primary purpose of beta testing is to collect {{c1::feedback and bug reports}} from real users before the official product launch.
+A {{c1::test plan}} is a detailed document that outlines the scope, approach, and schedule of intended testing activities.
+A test plan specifies the {{c1::test data}} to be used, including the specific input values and their corresponding expected outputs.
+To minimize errors, developers can reuse well-tested, pre-existing code from {{c1::libraries}}.
+Employing standard, proven {{c1::algorithms}} and established design patterns helps to reduce the likelihood of logic errors.
+A {{c1::Finite State Machine (FSM)}} is an abstract model of computation that can be in one of a finite number of states at any given time.
+In a Finite State Machine, a {{c1::state transition}} is a change from one state to another.
+A state transition in an FSM is triggered by a specific {{c1::input}}.
+A state transition diagram is a visual representation of a {{c1::Finite State Machine}}.
+In a state transition diagram, a state is represented by a {{c1::circle}} containing a label.
+The initial state in a state transition diagram is indicated by an {{c1::arrow}} pointing to it from no other state.
+In a state transition diagram, an arrow connecting two states represents a {{c1::transition}}.
+The label on a transition arrow in a state transition diagram specifies the {{c1::input}} that causes the transition.
+A final or accepting state in a state transition diagram is denoted by a {{c1::double circle}}.
+A {{c1::halting state}} is a state that is accepted as a valid final state for the machine's operation.
+An FSM that produces an output during a transition is known as a {{c1::Mealy machine}}.
+In a Mealy machine, an {{c1::output}} is generated when a transition between states occurs.
+On a Mealy machine diagram, the notation `input ｜ output` on a transition arrow indicates the input and its corresponding {{c1::output}}.
+A {{c1::state transition table}} is a tabular representation of the state transitions of an FSM.
+A state transition table defines the {{c1::next state}} for every possible combination of current state and input.
+In a basic state transition table, the rows typically represent the possible {{c1::inputs}}.
+In a basic state transition table, the columns typically represent the current {{c1::states}}.
+A state transition table for a Mealy machine includes an additional field to show the {{c1::output}} for each transition.
+A structured chart is a diagram that graphically represents the {{c1::modular structure}} of a solution.
+Structured charts show how modules are connected and communicate through shared variables called {{c1::parameters}}.
+The overall organization of a structured chart is typically a hierarchical or {{c1::pyramid structure}}.
+In the hierarchy of a structured chart, the main controlling module is at {{c1::Level 0}}.
+On a structured chart, the execution order of modules at the same level is generally read from {{c1::left to right}}.
+A {{c1::rectangle}} in a structured chart represents a single module.
+A {{c1::line}} connecting two modules in a structured chart represents a call to a module.
+Conditional logic that determines if a module is called is represented by a {{c1::diamond}} shape.
+A loop is represented by a {{c1::curved arrow}} over the connections to the modules that are to be repeatedly called.
+A variable being passed as a parameter is shown by an arrow with an {{c1::open circle}} at its end.
+An arrow pointing {{c1::downwards}} indicates a variable is being passed to a subordinate module.
+An arrow pointing {{c1::upwards}} indicates a variable is being returned to the calling module.
+The passing of variables between modules is described as the {{c1::interface}} between them.
+In a structured chart, a variable name enclosed in angle brackets, such as `<IsValid>`, denotes a {{c1::flag}}.
+A flag is a variable used to pass {{c1::control flow}} information between modules, such as a true/false status.
+A {{c1::double-headed arrow}} with a filled circle at each end shows that a value is passed, modified, and then returned.
+The double-headed arrow symbol indicates that the module modifies the value of the parameter it receives, which is similar to passing by {{c1::reference}}.
+Structured charts do not have explicit stop nodes; all modules are expected to return control to their {{c1::calling module}} after completion.
+Modularization, as shown in structured charts, improves a program's stability because modules are designed to be {{c1::self-contained}}.
+Because modules are self-contained, changes within one module are less likely to {{c1::affect other modules}}.
+Using a structured chart helps a programmer to visualize the {{c1::decomposition}} of a complex problem into smaller sub-problems.
+The explicit depiction of parameters in a structured chart clarifies the {{c1::data flow}} throughout the program.
+A structured chart focuses on the overall program structure and module hierarchy, not the {{c1::detailed logic}} within each module.
+Text files are used to store data {{c1::persistently}}, meaning the data remains available after the program has terminated.
+An End-of-File (EOF) marker is a special character placed by the operating system to indicate the {{c1::end of a file's content}}.
+An End-of-Line (EOL) marker is a special character used in text files to signify the {{c1::end of a line}} of text.
+In pseudocode, the `EOF("filename")` function returns a Boolean value indicating if the file pointer has reached the {{c1::End-of-File marker}}.
+To read an entire file, a common structure is a loop that continues `WHILE NOT {{c1::EOF("filename")}}`.
+Using a pre-condition loop (like a `WHILE` loop) is essential for reading files because it correctly handles potentially {{c1::empty files}}.
+If a file is empty, the `EOF()` function will immediately return {{c1::true}}, preventing a pre-condition loop from attempting to read from it.
+A post-condition loop (like a `REPEAT...UNTIL` loop) is unsuitable for file reading as it would attempt a read operation {{c1::before}} checking if the file is empty, potentially causing an error.
+The pseudocode statement `OPENFILE "filename" FOR READ` prepares a file to be {{c1::read from}} by the program.
+An algorithm is a sequence of steps designed to solve a problem in a {{c1::finite}} amount of time.
+In a flowchart, the Start and Stop points are represented by an {{c1::oval}} or rounded rectangle.
+In a flowchart, an Input or Output operation is represented by a {{c1::parallelogram}}.
+In a flowchart, a process, calculation, or assignment is represented by a {{c1::rectangle}}.
+In a flowchart, a decision point is represented by a {{c1::diamond}} shape.
+The branches exiting a diamond (decision) symbol in a flowchart are typically labeled with outcomes like {{c1::"Yes" and "No"}}.
+The flow of control between steps in a flowchart is indicated by {{c1::arrows}}.
+A loop is represented in a flowchart by arrows that form a {{c1::cycle}}, directing the flow back to an earlier step.
+Pseudocode uses the `DECLARE` keyword to explicitly state a {{c1::variable's name and data type}} before use.
+The `INPUT` command in pseudocode is used to {{c1::receive data from the user}} and store it in a variable.
+The `OUTPUT` command in pseudocode is used to {{c1::display information}} to the user.
+The assignment operator, often shown as `←`, is used to {{c1::assign a value}} to a variable.
+Initializing a variable involves setting its {{c1::initial value}} before it is used in a calculation.
+A counter is a variable used to {{c1::track the number of iterations}} in a loop or count events.
+A decision structure in an algorithm executes different sets of instructions based on a {{c1::condition}}.
+The condition within a decision block must evaluate to a {{c1::Boolean}} result (e.g., TRUE/FALSE).
+Structured Query Language (SQL) is a standard language for accessing and manipulating {{c1::databases}}.
+The two main categories of SQL commands are Data Definition Language (DDL) and {{c1::Data Manipulation Language (DML)}}.
+Data Definition Language (DDL) is used to create, alter, and delete the {{c1::structure}} of a database, such as tables and schemas.
+Data Manipulation Language (DML) is used to retrieve, insert, update, and delete {{c1::data}} within database tables.
+The `CREATE DATABASE` command is a DDL statement used to {{c1::create a new database}}.
+The `CREATE TABLE` command is a DDL statement used to define a new {{c1::table}} and its columns.
+The `ALTER TABLE` command is a DDL statement used to modify an existing table's structure, such as adding or removing {{c1::columns}}.
+In SQL, each command typically ends with a {{c1::semicolon (;)}}.
+SQL commands are generally not {{c1::case-sensitive}}, meaning `SELECT` is the same as `select`.
+In SQL syntax, items in a list, such as column names in a `CREATE TABLE` statement, are separated by a {{c1::comma (,)}}.
+When creating a table, a specific {{c1::data type}} must be declared for each attribute (column).
+The `CHARACTER(n)` or `CHAR(n)` data type allocates a {{c1::fixed amount}} of storage space for a string, regardless of its actual length.
+The `VARCHAR(n)` data type allocates a {{c1::variable amount}} of storage space for a string, using only the space needed for the actual characters.
+The `INTEGER` or `INT` data type is used to store {{c1::whole numbers}}.
+The `REAL` or `FLOAT` data type is used to store numbers with {{c1::decimal points}}.
+The `SELECT` command is used to {{c1::retrieve data}} from one or more tables.
+The `FROM` clause in a `SELECT` statement specifies the {{c1::table}} from which to retrieve the data.
+The `INSERT INTO` command is used to add new {{c1::rows (records)}} to a table.
+The `UPDATE` command is used to {{c1::modify existing records}} in a table.
+The `DELETE` command is used to {{c1::remove existing records}} from a table.
+The `WHERE` clause is used to {{c1::filter records}} and retrieve only those that fulfill a specified condition.
+To modify only specific records with `UPDATE`, a {{c1::`WHERE` clause}} must be used to identify the target rows.
+To remove only specific records with `DELETE`, a {{c1::`WHERE` clause}} must be used to identify the target rows.
+The `ORDER BY` clause is used to {{c1::sort the result set}} in ascending (`ASC`) or descending (`DESC`) order.
+The `GROUP BY` clause groups rows that have the same values in specified columns into summary rows, often used with {{c1::aggregate functions}}.
+An aggregate function in SQL performs a calculation on a set of values and returns a {{c1::single value}}.
+The aggregate function `COUNT()` returns the {{c1::number of rows}} that match a specified criterion.
+The aggregate function `SUM()` returns the {{c1::total sum}} of a numeric column.
+The aggregate function `AVG()` returns the {{c1::average value}} of a numeric column.
+A `JOIN` operation combines rows from two or more tables based on a {{c1::related column}} between them.
+An implicit join is performed by listing multiple tables in the `FROM` clause and using a {{c1::`WHERE` clause}} to specify the join condition.
+A join condition typically links two tables by equating the primary key of one table with the {{c1::foreign key}} of the other.
+A DBMS enforces referential integrity by preventing the deletion of a record if its primary key is used as a {{c1::foreign key}} in another table.
+A primary key can be defined either when a table is first created using `CREATE TABLE` or added later using {{c1::`ALTER TABLE`}}.
+The `ALTER TABLE ... ADD PRIMARY KEY` command sets an existing attribute as the {{c1::primary key}}.
+A {{c1::DBMS (Database Management System)}} provides a set of tools to create, retrieve, update, and manage data within a database.
+The primary function of a {{c1::DBMS}} is to provide an interface between the user or application and the physical database.
+A DBMS handles data definition, data manipulation, and {{c1::query processing}}.
+The acronym ANSI stands for the {{c1::American National Standards Institute}}.
+The ANSI-SPARC architecture for a DBMS is a three-level model consisting of the external, {{c1::conceptual}}, and internal levels.
+The ANSI-SPARC architecture provides {{c1::data independence}}, separating user views of the data from its physical storage details.
+The {{c1::external level}} of the ANSI-SPARC model defines individual user views of the database.
+An {{c1::external schema}} provides a customized view of the database tailored to a specific user or application.
+By using external schemata, a DBMS can enforce {{c1::data security}} by restricting user access to only authorized portions of the data.
+The {{c1::conceptual level}} provides a universal, logical view of all the data and relationships in the entire database.
+The representation of the entire database at the conceptual level is referred to as the {{c1::conceptual schema}} or logical schema.
+Access to the conceptual level, which represents the entire database structure, is typically restricted to the {{c1::Database Administrator (DBA)}}.
+The {{c1::internal level}} of the ANSI-SPARC architecture is concerned with the physical storage of data, including file organization and memory addresses.
+The DBA interacts with the database at the {{c1::conceptual level}}, using tools like the data dictionary, rather than directly at the internal (physical) level.
+A DBMS provides a {{c1::developer interface}} that allows programmers to interact with the database, typically using a query language.
+The developer interface of a DBMS allows instructions to be communicated to the database using a query language like {{c1::SQL (Structured Query Language)}}.
+A component of the DBMS called the {{c1::query processor}} is responsible for parsing and executing SQL instructions.
+A DBMS can generate {{c1::reports}}, which are predefined, formatted views of partially processed data for presentation.
+A key responsibility of the Database Administrator (DBA) is to use DBMS tools to define and manage user {{c1::access rights}} and permissions.
+The Database Administrator (DBA) is responsible for creating and maintaining {{c1::indexes}} to improve database query performance.
+An index is a data structure that holds {{c1::pointers}} to the locations of specific data records in a database table.
+Using an index can significantly speed up data retrieval because searching the smaller index structure is faster than scanning the {{c1::entire main table}}.
+Indexes can be created on a table's {{c1::primary key}} or a secondary key to optimize different types of queries.
+A {{c1::secondary key}} is an attribute or set of attributes that contains unique values for each record but has not been chosen as the primary key.
+Access to the database's {{c1::data dictionary}} is typically restricted to the Database Administrator (DBA).
+A data dictionary is a centralized repository of {{c1::metadata}}, which is data that describes the database's structure and constraints.
+A data dictionary contains metadata such as table names, {{c1::attribute names}}, data types, and constraints.
+Metadata in a data dictionary includes information about the {{c1::relationships between tables}}, such as foreign key constraints.
+A major threat to {{c1::data integrity}} is an incompletely executed transaction, which can leave the database in a corrupt state.
+A database is in an {{c1::inconsistent state}} when data is only partially updated, compromising its integrity until the transaction is either fully completed or rolled back.
+To maintain data integrity, a DBMS must ensure that transactions are {{c1::atomic}}, meaning they are treated as a single, indivisible unit of work.
+A key data security feature of a DBMS is its responsibility for managing and performing regular {{c1::backups}} to allow for recovery from data loss.
+The ANSI-SPARC architecture's three levels are built upon the {{c1::physical storage}} layer, where the actual data resides.
+The internal schema describes the {{c1::physical}} structure of the database.
+The conceptual schema describes the {{c1::logical}} structure of the entire database for a community of users.
+Normalization is the process of restructuring a database to reduce {{c1::data redundancy}}.
+Normal Forms, such as 1NF and 3NF, describe the level of optimization a database has undergone to reduce {{c1::data redundancy}}.
+A relation is in First Normal Form (1NF) if all its attributes contain only {{c1::atomic}} values.
+An atomic value means a field holds a {{c1::single value}}, not a list or a set.
+To be in First Normal Form (1NF), each row in a table must have a unique {{c1::primary key}}.
+Data that contains repeating groups, such as `PhoneNumber1` and `PhoneNumber2` columns, is considered {{c1::un-normalized}}.
+Repeating groups are sets of attributes that represent similar data and lead to {{c1::data redundancy}}.
+To be in Second Normal Form (2NF), a relation must first be in {{c1::1NF}}.
+Second Normal Form (2NF) states that there must be no {{c1::partial dependencies}} of non-key attributes on a composite key.
+A partial dependency occurs when a non-key attribute depends on only {{c1::part of a composite primary key}}.
+Relations with a single-attribute primary key are automatically in {{c1::2NF}} if they meet 1NF criteria.
+To resolve a partial dependency, the dependent attribute is moved to a {{c1::new table}} along with the part of the key it depends on.
+To be in Third Normal Form (3NF), a relation must first be in {{c1::2NF}}.
+Third Normal Form (3NF) states that there must be no {{c1::transitive dependencies}}.
+A transitive dependency exists when a non-key attribute depends on {{c1::another non-key attribute}}.
+To resolve a transitive dependency, the two related non-key attributes are moved to a {{c1::new table}}.
+The phrase "dependent on the whole key" summarizes the requirement for {{c1::Second Normal Form (2NF)}}.
+The phrase "dependent on nothing but the key" summarizes the requirement for {{c1::Third Normal Form (3NF)}}.
+In summary, 3NF requires every non-key attribute to be dependent on the key, the whole key, and {{c1::nothing but the key}}.
+The typical goal for a relational database design is to achieve {{c1::Third Normal Form (3NF)}}.
+An Entity-Relationship (E-R) diagram is a visual tool used to show how data is {{c1::linked between different tables}} in a database.
+In the context of E-R modelling, an entity is a concept or object, such as 'Member' or 'Booking', that will become a {{c1::table}} in the database.
+The relationships between entities in an E-R diagram are formally known as {{c1::cardinalities}}.
+E-R diagrams are often developed using a top-down, iterative approach called {{c1::stepwise refinement}}.
+During stepwise refinement, general entities and relationships are repeatedly {{c1::subdivided}} into more specific components until they are suitable for implementation.
+In cardinality notation, the symbol `--|--` is used to represent a relationship of exactly {{c1::one}}.
+In cardinality notation, the symbol `--<` is used to represent a relationship of {{c1::many}}.
+In cardinality notation, the symbol `--o--` is used to represent a relationship of {{c1::zero}}.
+The cardinality notation for a 'one and only one' relationship is {{c1::`--||--`}}.
+The cardinality notation for a 'zero or one' relationship is {{c1::`--o|--`}}.
+The cardinality notation for a 'one to many' relationship is {{c1::`--|<--`}}.
+The cardinality notation for a 'zero to many' relationship is {{c1::`--o<--`}}.
+A one-to-one (1:1) relationship exists when one record in a table is linked to exactly {{c1::one record}} in another table.
+A one-to-many (1:M) relationship exists when one record in a table can be linked to {{c1::multiple records}} in another table.
+A many-to-many (M:M) relationship exists when multiple records in one table can link to {{c1::multiple records}} in another table.
+Many-to-many (M:M) relationships cannot be implemented directly in a relational database and require a {{c1::link entity}}.
+A link entity, also known as a linking table, is an intermediate table used to resolve a many-to-many relationship.
+A link entity resolves an M:M relationship by breaking it down into two separate {{c1::one-to-many}} relationships.
+A link entity's structure typically consists of two {{c1::foreign keys}}.
+The foreign keys in a link entity each refer to the {{c1::primary key}} of one of the original entities in the M:M relationship.
+A relationship between two tables is physically implemented using a {{c1::foreign key}} in one table that references the primary key of the other.
+A major problem with multi-file, file-based systems is {{c1::data redundancy}}, where the same data is stored in multiple places.
+File-based systems often suffer from {{c1::data dependency}}, where application programs are tightly coupled to the physical data storage structure.
+Data dependency can lead to data {{c1::integrity}} issues, as an update to data in one file might not be reflected in another.
+When the structure of a file in a file-based system is altered, the {{c1::application programs}} that access it often need to be rewritten.
+File-based systems using a single file often lack mechanisms for handling user {{c1::permissions}}.
+In a relational database, data is organised into tables which are formally known as {{c1::relations}}.
+The columns of a relation are referred to as {{c1::attributes}}.
+A single row in a relation, representing one instance of an entity, is called a {{c1::tuple}}.
+A tuple is also commonly referred to as a {{c1::record}}.
+The individual data items within a tuple are often referred to as {{c1::fields}}.
+Relational databases enforce that attribute values must be {{c1::atomic}}, meaning each cell can only hold a single value.
+A tuple represents a single {{c1::instance}} of the entity described by the relation.
+In the relational model, there is no predefined order for the rows (tuples) or {{c1::columns (attributes)}}.
+A {{c1::primary key}} is an attribute or combination of attributes that uniquely identifies each tuple in a relation.
+The value of the primary key for each tuple in a relation must be {{c1::unique}}.
+A primary key is used to ensure entity {{c1::integrity}} by preventing duplicate records.
+A {{c1::candidate key}} is any attribute whose values are unique for every tuple, making it a candidate for the primary key.
+A candidate key that is not selected to be the primary key is known as a {{c1::secondary key}}.
+If no single attribute is suitable, a primary key can be a {{c1::combination of attributes}}.
+A Database Management System (DBMS) will reject any new tuple if its {{c1::primary key}} value already exists in the relation.
+A {{c1::foreign key}} is an attribute in one relation that refers to the primary key of another relation.
+The purpose of a foreign key is to establish a {{c1::link}} or relationship between two relations.
+Using a foreign key helps to reduce {{c1::data redundancy}} by linking to data in another table instead of duplicating it.
+Foreign keys are essential for maintaining {{c1::referential integrity}} in a relational database.
+{{c1::Referential integrity}} ensures that a value entered as a foreign key must already exist as a primary key in the referenced table.
+The {{c1::DBMS}} is responsible for enforcing referential integrity.
+Both functions and procedures are types of {{c1::subroutines}}, which are named blocks of code designed for a specific task.
+A key difference is that a {{c1::function}} returns a value, whereas a procedure does not.
+A subroutine that performs a task but does not return a value to the calling code is a {{c1::procedure}}.
+The value that a function passes back to the part of the program that called it is known as the {{c1::return value}}.
+In some programming languages, a procedure is referred to as a '{{c1::void}} function' because it returns nothing.
+A subroutine must be {{c1::defined}} before it can be called in the main program.
+A subroutine is executed when it is {{c1::called}} by its name from another part of the program.
+The variables in a subroutine's definition that act as placeholders for incoming values are called {{c1::parameters}}.
+The actual values or data passed into a subroutine during a call are known as {{c1::arguments}}.
+The first line of a subroutine's definition, which includes its name and parameters, is called the subroutine {{c1::header}}.
+The subroutine's name and its parameters form its {{c1::interface}}, which defines how it should be called.
+Passing a parameter {{c1::by value}} involves sending a copy of the argument's data to the subroutine.
+When a parameter is passed by value, changes made to it inside the subroutine {{c1::do not affect}} the original argument.
+Passing a parameter {{c1::by reference}} involves sending the memory address of the argument to the subroutine.
+When a parameter is passed by reference, changes made to it inside the subroutine {{c1::will affect}} the original argument.
+Copyright provides formally acknowledged {{c1::ownership}} over an original creative work.
+When a person creates software as part of their employment, the {{c1::organization}} or company typically claims the copyright.
+Copyright protection does not extend to {{c1::ideas}}, only to the tangible expression of those ideas.
+Copyright cannot be claimed on a work that has already been published and is owned by {{c1::someone else}}.
+A key purpose of copyright is to enable creators to control and {{c1::profit from}} their original work.
+Copyright law exists to prevent others from using or distributing a creator's work without {{c1::permission}}.
+Copyright protection is valid for a {{c1::limited period}} of time, often the life of the author plus a set number of years.
+Copyright law often permits a user who has legally bought a software product to create a copy for {{c1::backup purposes}}.
+When purchasing commercial software, a user buys an end-user license, which grants {{c1::permission to use}} the software, not ownership of it.
+A {{c1::site license}} allows an organization to install software on multiple computers, often for a fixed fee.
+In a per-seat license model, a fee is paid for {{c1::each user}} or installation of the software.
+For commercially licensed software, also known as proprietary software, the {{c1::source code}} is not provided to the end-user.
+Shareware is software distributed on a {{c1::trial basis}}, often with limitations on time or functionality until a license is purchased.
+Freeware is software that is available for use at no monetary cost but is still under copyright and often has usage restrictions without providing the {{c1::source code}}.
+An end-user license agreement (EULA) is a legal contract that defines the {{c1::limitations}} on how the software can be used.
+Open-source software is defined by the availability of its {{c1::source code}} for inspection, modification, and enhancement.
+An open-source license typically allows users to {{c1::modify}} the software's source code to suit their needs.
+An open-source license typically allows users to freely {{c1::distribute}} the software, including any modifications they have made.
+The open-source model promotes {{c1::collaborative development}} by allowing a community of developers to contribute to a project.
+A key benefit of open-source software is {{c1::sustainability}}, as the community can maintain it even if the original creators stop.
+Because the source code is available, open-source software can be {{c1::customized}} to meet the specific needs of a user or organization.
+A major practical advantage of using open-source software is often the {{c1::low or zero cost}} of acquisition.
+Free Software is a sub-category of open-source software that emphasizes {{c1::user freedoms}} and ethical principles.
+The "Free" in Free Software refers to {{c1::liberty::user freedom}}, not necessarily that the software is free of charge.
+{{c1::Copyleft}} is a licensing mechanism requiring that modified versions of a work must be distributed under the same liberal terms as the original.
+The Free Software Foundation (FSF) is an organization that promotes the ethical and political aspects of user freedom in software, strongly advocating for {{c1::copyleft}}.
+The Open Source Initiative (OSI) is an organization that promotes the pragmatic benefits of open-source software, such as {{c1::collaboration and reliability}}.
+While freeware is free of charge, it is typically proprietary and does not provide access to {{c1::the source code}}.
+All Free Software is open source, but not all {{c1::open-source software}} is Free Software, as it may not use a copyleft license.
+An individual who creates an original piece of software is entitled to claim {{c1::copyright}} on that work.
+{{c1::Validation}} is the process of checking if data meets specified criteria or rules, ensuring it is reasonable.
+{{c1::Verification}} is the process of ensuring that data entered exactly matches the original source or the user's intention.
+Validation and verification are processes used to improve {{c1::data integrity}}.
+Neither validation nor verification can guarantee that data is 100% {{c1::correct}}.
+Validation checks if data is {{c1::reasonable}}, while verification checks if it is an {{c1::accurate copy}} of the source.
+A {{c1::presence check}} is a validation rule that ensures a required field has not been left blank.
+A {{c1::format check}} is a validation rule that ensures data conforms to a predefined pattern, such as a date format (`DD/MM/YYYY`).
+A {{c1::length check}} is a validation rule that ensures the entered data has the correct number of characters.
+A {{c1::range check}} is a validation rule that ensures a number is between a specified lower and upper limit.
+A {{c1::limit check}} is a validation rule that ensures a value is either above or below a single specified boundary.
+A {{c1::type check}} is a validation rule that ensures the entered data is of the expected data type, such as integer or string.
+An {{c1::existence check}} is a validation rule that checks whether a specified file or record already exists.
+Data entry verification aims to prevent errors caused by {{c1::misreading or mistyping}} data from a source document.
+{{c1::Double entry}} is a verification method where data is entered twice, and the two entries are compared to check for discrepancies.
+A {{c1::visual check}} is a verification method where the user reviews the data on the screen to confirm it matches their intention.
+Data transfer verification ensures that data {{c1::received}} is the same as the data that was sent, checking for corruption.
+A {{c1::checksum}} is a value calculated from a block of data, used to detect errors that may have been introduced during transmission.
+During a checksum verification, the receiver {{c1::recalculates the checksum}} from the received data and compares it to the one that was sent.
+A checksum can detect that a data block is corrupt but cannot {{c1::identify the exact location}} of the error.
+A {{c1::check digit}} is a form of checksum used to detect errors in identification numbers, such as barcodes or ISBNs.
+A check digit is typically calculated using an algorithm on the digits of a number, often involving a {{c1::modulo}} operation.
+A {{c1::parity bit}} is an extra bit added to a byte to ensure the total number of 1-bits is either even or odd.
+In an {{c1::even parity}} system, the parity bit is set to make the total number of 1s in the byte an even number.
+In an {{c1::odd parity}} system, the parity bit is set to make the total number of 1s in the byte an odd number.
+A simple one-bit parity check is able to detect a {{c1::single-bit error}} within a transmitted byte.
+A simple parity check will fail to detect an error if an {{c1::even number}} of bits are flipped during transmission.
+A simple parity check can detect an error but cannot {{c1::identify which bit}} is incorrect.
+A {{c1::parity block}} uses additional parity bits for both rows and columns of data.
+By finding the intersection of the row and column with an incorrect parity, a parity block can {{c1::locate and correct}} a single-bit error.
+Universal Product Code (UPC) barcodes consist of product digits and one final {{c1::check digit}} for verification.
+A {{c1::hacker}} is an individual who attempts to gain unauthorized access to a computer system or data.
+{{c1::Malware}} is malicious software designed to disrupt computer operations or gather sensitive information.
+A computer {{c1::virus}} is a type of malware that replicates itself by inserting its code into other executable programs.
+A {{c1::boot sector virus}} is a specific type of virus that infects the master boot record and executes when the computer starts up.
+A {{c1::macro virus}} is a virus written in a macro language and embedded into documents, typically in applications like Word or Excel.
+A {{c1::worm}} is a standalone malware program that replicates itself to spread to other computers, often over a network.
+A {{c1::logic bomb}} is a piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met.
+A {{c1::Trojan horse}} is malware disguised as a legitimate program, which users are tricked into executing.
+{{c1::Spyware}} is malware that secretly gathers information about a person or organization and sends it to another entity.
+A {{c1::bot}} is a type of malware that allows an attacker to take control of an infected computer, often as part of a botnet.
+{{c1::Phishing}} is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in an electronic communication.
+{{c1::Pharming}} is a cyberattack intended to redirect a website's traffic to a fake site to steal user credentials.
+A {{c1::keylogger}} is a type of surveillance software that has the capability to record every keystroke made on a computer.
+A significant user vulnerability is the creation of {{c1::weak passwords}} that are easy to guess or crack.
+A {{c1::buffer overflow}} is a system vulnerability where a program writes data beyond a buffer's boundary, which can be exploited to gain unauthorized access.
+A Disaster Recovery Contingency Plan often includes a {{c1::hot site}}, which is a fully equipped backup data center ready for immediate use.
+To ensure service continuity during updates, a {{c1::parallel system update}} involves running two systems simultaneously, with one being updated while the other remains operational.
+{{c1::User authentication}} is the process of verifying the identity of a user attempting to access a system.
+Besides passwords, common authentication methods include {{c1::biometric}} data (like fingerprints or facial scans) and security tokens.
+A {{c1::security token}} is a small hardware device that an authorized user of computer services is given to ease authentication.
+A {{c1::firewall}} is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+A firewall can be implemented as a hardware device or as {{c1::software}}.
+A {{c1::digital signature}} is a mathematical scheme for verifying the authenticity and integrity of digital messages or documents.
+{{c1::Anti-virus software}} is a program designed to detect, prevent, and remove malicious software from a computer system.
+An {{c1::Intrusion Detection System (IDS)}} monitors network or system activities for malicious actions or policy violations.
+The ongoing competition between malware creators and security software developers is often described as an {{c1::arms race}}.
+A primary reason for data loss is when a storage device gets {{c1::corrupted or physically destroyed}}.
+A {{c1::full backup}} involves making a copy of all data files on the system at a specific point in time.
+An {{c1::incremental backup}} copies only the data that has changed since the last backup was performed.
+For effective disaster recovery, backups should be stored {{c1::off-site}} in a secure, fire-proof, and flood-proof location.
+{{c1::Disk mirroring}} is a data storage technique where data is written to two separate disks simultaneously to provide redundancy.
+An {{c1::authorization policy}} defines the access rights, such as read or write permissions, that a specific user has for a particular resource.
+{{c1::Storage encryption}} is the process of encoding all data on a disk, rendering it unreadable to unauthorized users.
+A significant threat to data security is {{c1::human error}}, such as the accidental deletion of files or falling for phishing scams.
+Users can unintentionally introduce malware by opening malicious {{c1::email attachments}} or downloading infected files.
+Data integrity is the requirement for data to be {{c1::accurate}} and up-to-date.
+In the context of file transfers, data integrity means the data has remained {{c1::unchanged}}.
+Data {{c1::privacy}} is the principle of keeping personal or organizational data safe from unauthorized access.
+Data privacy gives individuals control over who can {{c1::access}} their personal data.
+Data privacy includes an individual's right to control which specific pieces of their data are {{c1::shared}}.
+Legislation known as {{c1::data protection laws}} is used to enforce data privacy.
+Data protection laws often mandate that data is only used for the specific {{c1::purposes}} agreed upon by the individual.
+Under data protection laws, organizations have a legal responsibility to ensure data {{c1::privacy}}.
+Under data protection laws, organizations also have a legal responsibility to ensure data {{c1::integrity}}.
+While data protection laws create a legal framework, they cannot absolutely {{c1::guarantee}} that data breaches will not occur.
+Data {{c1::security}} is the requirement to protect data from being lost, corrupted, or unintentionally altered.
+Protecting data from being {{c1::lost}} is a primary goal of data security.
+Protecting data from becoming {{c1::corrupted}} is a primary goal of data security.
+Data security is considered a prerequisite for maintaining both data {{c1::integrity}} and data {{c1::privacy}}.
+The security of the overall computer system, known as {{c1::system security}}, is crucial for ensuring data security.
+System security prevents data loss by ensuring the system remains {{c1::operational}} and available when needed.
+System security ensures that only {{c1::authorized users}} are able to access the system and its data.
+An interpreter translates and executes source code {{c1::line by line}} at runtime.
+When an interpreter encounters an error, the program {{c1::halts immediately}}.
+An interpreter translates source code into {{c1::intermediate code}} just before it is executed.
+To run an interpreted program, both the {{c1::source code and the interpreter}} are required at runtime.
+Interpreted programs generally run {{c1::slower}} than compiled programs.
+The development cycle can be faster with an interpreter because {{c1::errors are reported as they occur}}.
+A compiler translates the entire source code into {{c1::object code}} before the program is first run.
+If a compiler finds errors, it generates a {{c1::list of all errors}} at the end of the compilation process.
+A key output of a successful compilation is {{c1::object code}}, which is machine code ready for linking.
+{{c1::Object code}} is platform-specific machine code that has not yet been linked to create a final executable.
+{{c1::Intermediate code}} is a low-level, platform-independent representation of source code, such as bytecode.
+Once a program is compiled into an executable file, the {{c1::source code and compiler}} are no longer needed to run it.
+A major advantage of compilation is that the distributed executable file runs very {{c1::fast}}.
+A benefit of distributing compiled code is that the {{c1::source code can be kept secret}}.
+A disadvantage of using a compiler is a {{c1::slower development cycle}} due to the need to recompile the entire program after changes.
+Java source code is compiled into a platform-independent format called {{c1::Java bytecode}}.
+Java bytecode is executed by a system-specific interpreter known as the {{c1::Java Virtual Machine (JVM)}}.
+The use of bytecode and a JVM makes the Java language {{c1::platform-independent}}.
+IDE stands for {{c1::Integrated Development Environment}}.
+The IDE feature that automatically applies color-coding and indentation to improve code readability is called {{c1::prettyprinting}}.
+IDEs provide {{c1::content-sensitive prompts}}, which include features like code completion and automatic suggestions.
+{{c1::Dynamic syntax checking}} is an IDE feature that highlights errors in the code as it is being typed.
+IDEs help manage code by allowing developers to {{c1::expand and collapse code blocks}}.
+A {{c1::breakpoint}} is a debugging tool that intentionally pauses program execution at a specified line to allow inspection.
+Debugging tools in an IDE allow a programmer to execute code {{c1::step-by-step}} or line by line.
+While a program is paused during debugging, a programmer can {{c1::examine the current state of variables}}.
+A key difference is that a compiler produces a {{c1::standalone executable file}}, whereas an interpreter does not.
+With an interpreter, run-time errors are only found when the {{c1::faulty line of code is executed}}.
+A compiler performs a complete {{c1::syntax check}} of the entire program before creating any object code.
+To distribute software written in an interpreted language, you must typically provide the {{c1::source code}}.
+Programs that provide core computer functionality and help the computer run are called {{c1::system software}}.
+Application software consists of programs that perform specific tasks to directly serve the {{c1::user}}.
+The {{c1::operating system}} is the core system software that manages the computer's hardware and software resources.
+A key function of the OS is to provide an {{c1::environment}} in which other programs can execute.
+The OS is responsible for managing the allocation of system {{c1::resources}} such as CPU time and memory.
+The operating system is the only software with direct access to the computer's {{c1::hardware}}.
+An OS provides a {{c1::user interface}} to allow users to interact with the computer.
+A Command-Line Interface (CLI) is a {{c1::text-based}} user interface.
+A Graphical User Interface (GUI) provides a visual, icon-based environment but is more {{c1::resource intensive}} than a CLI.
+The OS acts as a bridge between application programs and the specific underlying {{c1::hardware}}.
+For a program to run, the operating system must first load it into {{c1::memory}}.
+A program that is currently running is known as a {{c1::process}}.
+The OS performs {{c1::multitasking}} by scheduling and interrupting multiple processes to share the CPU.
+The OS is responsible for resolving {{c1::conflicts}} between processes that require the same resource simultaneously.
+An important memory management task is {{c1::memory protection}}, which prevents processes from interfering with each other's memory.
+The OS aims to {{c1::optimize resource usage}} to ensure limited memory is used effectively for the best performance.
+Memory management in an OS involves deciding which processes have {{c1::priority}} to be in memory and where they are placed.
+The OS uses special software called {{c1::device drivers}} to communicate with and control hardware devices.
+Device drivers are used to remove the {{c1::complexity}} from communicating directly with hardware devices.
+The OS controls which processes are allowed to use specific hardware {{c1::devices}}.
+The file management function of an OS determines file naming conventions and {{c1::directory structures}}.
+An OS manages {{c1::access control mechanisms}} to control which users can read, write, or execute files.
+As part of security management, the OS can create {{c1::backups}} for data recovery purposes.
+OS security management is concerned with data {{c1::privacy}}, controlling who can access data.
+A key security function of the OS is to make unauthorized {{c1::intrusion}} into the system difficult.
+The OS is responsible for detecting errors and can shut down {{c1::faulty processes}}.
+When a problem is detected, the OS can provide {{c1::error diagnostics}} to help identify the cause.
+In case of a major system failure, the OS attempts an orderly {{c1::shutdown}} to prevent data loss.
+Web browsers and computer games are examples of {{c1::application software}}.
+The boot loader and the operating system are examples of {{c1::system software}}.
+Utility software is a type of system software designed to analyze, configure, optimize, or {{c1::maintain}} a computer system.
+Utility programs can be part of the operating system or installed {{c1::separately}} by the user.
+Common tasks performed by utility software include disk management, data compression, and {{c1::anti-malware}} protection.
+A hard disk formatter utility prepares a disk for use by creating a {{c1::file system}} and clearing any existing data.
+Disk formatting can also be used to {{c1::partition}} a physical disk into multiple logical drives.
+A disk checker utility can identify and mark {{c1::bad sectors}} on a storage device to prevent them from being used for data storage.
+Disk checker utilities may attempt to {{c1::recover data}} from faulty sectors of a storage drive.
+A hard disk defragmenter is a utility that reorganizes fragmented files so that their data is stored in {{c1::contiguous}} blocks.
+The main purpose of defragmentation is to improve file {{c1::access speed}} by reducing the movement of the disk's read/write head.
+The process of reorganizing the contents of a disk to store file pieces together is called {{c1::defragmentation}}.
+Defragmentation may not be possible if the disk has insufficient {{c1::free space}}.
+A backup utility is used to create copies of data to a separate storage medium to protect against {{c1::data loss}}.
+Backup utilities often provide options for {{c1::scheduling}} automatic backups to run at regular intervals.
+An {{c1::incremental backup}} is a backup strategy that only copies data that has changed since the previous backup was made.
+A program library is a collection of pre-compiled subroutines and resources that can be used by {{c1::software developers}}.
+Using program libraries saves development time by providing {{c1::reusable}} code for common functions.
+In {{c1::static linking}}, the library code is copied directly into the application's executable file at compile time.
+A major drawback of static linking is the significant increase in the {{c1::file size}} of the compiled program.
+Static linking can lead to wasted memory if multiple running programs each have their own {{c1::duplicate copy}} of the same library code.
+A {{c1::Dynamically Linked Library (DLL)}} is a library stored in a separate file that is loaded into memory by a program at runtime.
+With dynamic linking, the main executable file contains only {{c1::references}} to the library code, not the code itself.
+Dynamic linking allows a single copy of a library in memory to be {{c1::shared}} by multiple running applications.
+Sharing DLLs among multiple programs helps to conserve both RAM and {{c1::disk space}}.
+A key advantage of dynamic linking is that libraries can be updated {{c1::independently}} of the programs that use them.
+A program using dynamic linking may fail to run if the required DLL is {{c1::missing or an incorrect version}}.
+Errors caused by missing or incompatible DLLs are known as {{c1::dependency issues}}.
+Encryption utilities are used to scramble data, making it unreadable without the correct {{c1::key}}.
+Compression utilities reduce the size of files to save {{c1::storage space}} and decrease data transmission time.
+In contrast to a DLL, a statically linked library becomes a {{c1::permanent part}} of the final executable file.
+Control systems often use a closed feedback loop to check for a combination of {{c1::flags}} set by sensors.
+Bitwise manipulation is a technique for interpreting sensor signals by directly operating on the {{c1::bits}} that represent flags.
+A single {{c1::byte}} or register can efficiently store multiple flags, with each bit representing a different state.
+The bitwise `AND` operation is used to {{c1::clear}} or {{c1::mask}} specific bits in a byte.
+To clear a specific bit, a bitwise `AND` is performed with a mask where that bit's position is {{c1::0}} and all others are 1.
+The bitwise `OR` operation is used to {{c1::set}} a specific bit to 1, regardless of its initial state.
+To set a specific bit, a bitwise `OR` is performed with a mask where that bit's position is {{c1::1}} and all others are 0.
+The bitwise `XOR` operation is used to {{c1::toggle}} or flip a specific bit (0 to 1, or 1 to 0).
+To toggle a specific bit, a bitwise `XOR` is performed with a mask where that bit's position is {{c1::1}} and all others are 0.
+The bitwise `NOT` operation {{c1::inverts}} every bit in a given byte or register.
+To check if a specific flag is set, the bitwise `AND` operation is used with a {{c1::mask}}.
+The technique of using `AND` to isolate and check the state of one or more bits is known as {{c1::bit masking}}.
+When using bit masking to check a single flag, the mask should have a {{c1::1}} in the flag's position and 0s elsewhere.
+After applying an `AND` mask to check a flag, the flag is considered 'set' if the result of the operation is {{c1::non-zero}}.
+A bitwise `AND` with a mask of all zeros (e.g., `#B 00000000`) will result in {{c1::zero}}, effectively clearing all bits.
+A bitwise `OR` with a mask like `#B 00000100` will {{c1::set::operation}} the third bit from the right to 1.
+A bitwise `XOR` with a mask like `#B 01000000` will {{c1::toggle::operation}} the seventh bit from the right.
+In the `AND` operation, a bit in the result is 1 only if the corresponding bits in {{c1::both}} operands are 1.
+In the `OR` operation, a bit in the result is 1 if {{c1::at least one}} of the corresponding operand bits is 1.
+In the `XOR` operation, a bit in the result is 1 if the corresponding operand bits are {{c1::different}}.
+Using individual bits as flags is highly memory-efficient, as one byte can represent {{c1::eight}} distinct true/false conditions.
+In immediate addressing, the operand itself is the {{c1::actual value}} to be used by the instruction.
+The instruction `LDM #45` uses {{c1::immediate addressing}} because the operand is the value to be loaded, not an address.
+In direct addressing, the operand holds the {{c1::memory address}} where the data is located.
+In indirect addressing, the operand specifies an address which contains {{c1::another address}} where the actual data is stored.
+In indexed addressing, the effective address is calculated by adding an offset from the instruction to the value in the {{c1::Index Register (IX)}}.
+In relative addressing, the operand is an offset added to the {{c1::Program Counter (PC)}} to calculate the target address for a jump.
+The `LDM #value` instruction loads a literal value into the {{c1::Accumulator (ACC)}} using immediate addressing.
+The `LDD <address>` instruction loads data from a specified memory location into the {{c1::Accumulator (ACC)}} using direct addressing.
+The `LDI <address>` instruction loads data into the ACC from a memory location whose address is stored at `<address>`, which is a form of {{c1::indirect addressing}}.
+The `LDX <address>` instruction loads data into the ACC from an address calculated using the Index Register, known as {{c1::indexed addressing}}.
+The `LDR #value` instruction loads a literal value into the {{c1::Index Register (IX)}}.
+The `STO <address>` instruction saves the contents of the {{c1::Accumulator (ACC)}} to a specified memory address.
+The `IN` instruction reads a single character from the keyboard and stores its {{c1::ASCII code}} in the Accumulator.
+The `OUT` instruction displays the character represented by the {{c1::ASCII code}} stored in the Accumulator.
+The `ADD` instruction adds a value to the current content of the {{c1::Accumulator (ACC)}}.
+The `INC <register>` instruction increases the value of a specified register, such as the ACC or IX, by {{c1::one}}.
+The `DEC <register>` instruction decreases the value of a specified register, such as the ACC or IX, by {{c1::one}}.
+The `CMP` instruction compares the value in the Accumulator with another value and sets flags in the {{c1::Status Register}} accordingly.
+The `JMP <address>` instruction performs an {{c1::unconditional jump}}, immediately changing the Program Counter to the specified address.
+The `JPE <address>` instruction is a conditional jump that executes only if the {{c1::Zero Flag}} is set, typically after a `CMP` finds two values to be equal.
+The `JPN <address>` instruction is a conditional jump that executes if the {{c1::Zero Flag}} is not set, meaning a prior comparison found the values to be unequal.
+The `END` instruction terminates the program and returns control to the {{c1::operating system}}.
+A Logical Shift Left (`LSL #n`) moves all bits in the Accumulator to the left `n` times, with the Most Significant Bit moving into the {{c1::Carry Flag}}.
+A Logical Shift Right (`RSL #n`) moves all bits in the Accumulator to the right `n` times, with the Least Significant Bit moving into the {{c1::Carry Flag}}.
+During a logical shift, the vacant bit position created by the shift is filled with a {{c1::zero}}.
+Multiplying an unsigned binary integer by two can be achieved with a single {{c1::Logical Shift Left (LSL)}} operation.
+Dividing an unsigned binary integer by two can be achieved with a single {{c1::Logical Shift Right (RSL)}} operation, with the remainder in the carry flag.
+Bitwise logical operations like `AND`, `OR`, and `XOR` apply a boolean operator to {{c1::each pair of corresponding bits}} in the operands.
+A bitwise operator used to selectively alter or isolate certain bits in a value is often referred to as a {{c1::mask}}.
+The {{c1::Zero Flag (Z)}} is set in the Status Register when the result of an arithmetic or logical operation is zero.
+The {{c1::Negative Flag (N)}} is set in the Status Register if the result of an operation is negative (i.e., the MSB is 1).
+The {{c1::Carry Flag (C)}} is set when an arithmetic operation results in a carry-out from the Most Significant Bit.
+The {{c1::Overflow Flag (V)}} is set if the result of an operation on signed numbers is too large to be represented in the available bits.
+A {{c1::trace table}} is a manual debugging tool used to track the values of registers and memory as a program executes.
+In a trace table, a new value is typically written into a column only when the value of that register or memory location {{c1::changes}}.
+When tracing a program with branches or jumps, a column for the {{c1::Program Counter (PC)}} is essential to follow the execution path.
+The CPU can only directly execute instructions presented in {{c1::machine code}}.
+Machine code consists of a sequence of binary {{c1::instructions}} that the CPU can execute.
+Every machine code instruction must contain an {{c1::opcode}} to specify the operation to be performed.
+A machine code instruction may also contain one or more {{c1::operands}}, which specify the data or memory locations for the operation.
+An instruction set is specific to a processor's architecture, making machine code {{c1::non-portable}} between different types of CPUs.
+Assembly language is a low-level language that uses {{c1::mnemonics}} to represent machine code instructions.
+There is typically a {{c1::one-to-one correspondence}} between assembly language instructions and machine code instructions.
+An {{c1::assembler}} is a program that translates assembly language code into machine code.
+Assembly language allows for features like comments, symbolic names (labels), and {{c1::directives}} to aid programmers.
+A {{c1::directive}} is an instruction to the assembler on how to process the code, rather than an instruction for the CPU.
+A {{c1::macro}} in assembly is a named sequence of instructions that the assembler replaces with the full code snippet wherever the name is used.
+A {{c1::system call}} is a request from a program to the operating system for a service, such as reading from a file or writing to the screen.
+In {{c1::symbolic addressing}}, programmers use labels or variable names to refer to memory locations instead of raw addresses.
+In {{c1::absolute addressing}}, the instruction's operand is the actual, fixed memory address of the data.
+In {{c1::relative addressing}}, the memory address is specified as an offset from a base address held in a register.
+Relative addressing makes programs {{c1::relocatable}}, meaning they can be loaded into any part of memory to run.
+The {{c1::addressing mode}} specifies how the operand of an instruction should be interpreted to find the data.
+In {{c1::immediate addressing}}, the operand itself is the actual data value to be used by the instruction, not an address.
+In {{c1::direct addressing}}, the operand specifies the memory address that contains the data to be used.
+In {{c1::indirect addressing}}, the operand holds the address of a memory location that contains another address, which then points to the data.
+Indirect addressing allows a program to access a {{c1::larger range of memory addresses}} than what could be stored in a single instruction's operand field.
+In {{c1::indexed addressing}}, the final memory address is calculated by adding an offset from the instruction to a base address held in an index register (IX).
+A two-pass assembler is required to resolve {{c1::forward references}}, which occur when a symbol is used before it is defined in the code.
+The {{c1::first pass}} of a two-pass assembler scans the code primarily to build a symbol table.
+A {{c1::symbol table}} is a data structure created by an assembler that stores labels and their corresponding memory addresses.
+During the first pass, an assembler will also remove comments and expand any defined {{c1::macros}}.
+The {{c1::second pass}} of a two-pass assembler generates the final machine code by translating instructions and resolving symbols.
+During the second pass, assembly mnemonics are replaced with their binary {{c1::opcodes}} using an opcode lookup table.
+During the second pass, symbolic addresses are replaced with the actual memory addresses found in the {{c1::symbol table}}.
+A {{c1::translator}} is a general term for a program that converts code from one programming language to another.
+A {{c1::compiler}} is a translator that converts a high-level language into machine code or another low-level format.
+After an instruction is fetched to the Current Instruction Register (CIR), its opcode is sent to the {{c1::Control Unit (CU)}} for decoding.
+The format of a machine instruction defines its bit length, the size of the opcode field, and the number and size of {{c1::operand}} fields.
+For efficient memory access, the bit-width of an instruction's address operand should ideally match the width of the {{c1::address bus}}.
+Programming languages exist in a hierarchy of abstraction, with {{c1::machine code}} being the lowest level and high-level languages the highest.
+The Fetch-Execute cycle is a continuous process run by the CPU, starting by checking if there are any instructions to {{c1::execute}}.
+The first stage of the Fetch-Execute cycle is to {{c1::Fetch}} the next instruction from memory.
+In the second stage of the Fetch-Execute cycle, the instruction is {{c1::decoded}} by the Control Unit.
+In the third stage of the Fetch-Execute cycle, the decoded instruction is {{c1::executed}} by the processor.
+After executing an instruction, the processor checks for any pending {{c1::interrupts}} before starting the next cycle.
+The {{c1::Program Counter (PC)}} is a register that holds the memory address of the next instruction to be fetched.
+To start the fetch stage, the address stored in the Program Counter is copied to the {{c1::Memory Address Register (MAR)}}.
+The instruction located at the address in the MAR is fetched from memory and placed into the {{c1::Memory Data Register (MDR)}}.
+While the instruction is being fetched to the MDR, the Program Counter is {{c1::incremented}} to point to the next instruction in sequence.
+The instruction that has been loaded into the MDR is then copied to the {{c1::Current Instruction Register (CIR)}}.
+The instruction held in the CIR is interpreted by the {{c1::Control Unit (CU)}}, which coordinates the processor's activities.
+If an instruction involves a calculation or logical comparison, the Control Unit activates the {{c1::Arithmetic Logic Unit (ALU)}}.
+The timing of operations within the Fetch-Execute cycle is synchronized by the {{c1::system clock}}.
+A `jump` instruction alters the normal execution flow by loading a new, non-sequential address into the {{c1::Program Counter (PC)}}.
+{{c1::Register Transfer Notation (RTN)}} is a symbolic language used to describe the transfer of data between processor registers.
+In RTN, the statement `MAR ← [PC]` means the content of the PC is copied to the {{c1::MAR}}.
+In RTN, `MDR ← [[MAR]]` means the data at the memory address held in the MAR is copied to the {{c1::MDR}}.
+In RTN, `CIR ← [MDR]` means the instruction in the MDR is copied to the {{c1::CIR}} for decoding.
+In RTN, square brackets, as in `[PC]`, are used to denote the {{c1::content}} of a register.
+In RTN, double square brackets, as in `[[MAR]]`, denote the data held at the {{c1::memory address}} specified by the register.
+In RTN, a semicolon between operations, like `PC ← [PC] + 1; MDR ← [[MAR]]`, indicates that they occur {{c1::concurrently}}.
+An {{c1::interrupt}} is a signal sent to the processor from hardware or software indicating an event that needs immediate attention.
+Common causes for an interrupt include a request for {{c1::I/O processing}}, a hardware fault, or user interaction.
+A {{c1::timer signal}} can generate an interrupt to allow an operating system to switch between tasks.
+Interrupts are assigned {{c1::priorities}} to ensure that the most urgent tasks are handled first.
+When an interrupt is accepted, the current contents of the Program Counter and other registers are saved onto the {{c1::stack}} in memory.
+An {{c1::Interrupt Service Routine (ISR)}} is a dedicated block of code executed to handle a specific type of interrupt.
+After the processor's state is saved, the start address of the relevant Interrupt Service Routine is loaded into the {{c1::Program Counter}}.
+After an ISR has finished, the processor checks for other pending {{c1::interrupts}} of a higher or equal priority.
+If no further interrupts are pending, the saved register values are restored from the stack, and the original process {{c1::resumes}}.
+Some processors use an {{c1::Interrupt Register (IR)}} to store bits that identify the source of a pending interrupt.
+If an interrupt occurs, control is transferred to an {{c1::interrupt service routine}} to handle the event.
+In RTN, the register to the left of the arrow (`←`) is the {{c1::destination}} for the data transfer.
+Some interrupts may cause the current process to be {{c1::terminated}} (e.g., due to a fatal error), while others only pause it.
+In RTN, the statement `PC ← [PC] + 1` represents the {{c1::incrementing}} of the Program Counter.
+The clock speed of a CPU is measured in Hertz (Hz) and represents the number of {{c1::cycles per second}} the processor executes.
+Increasing a CPU's clock speed generally {{c1::increases}} the number of instructions it can execute per second.
+A larger CPU cache size can improve performance by reducing the need to access slower {{c1::main memory (RAM)}}.
+CPU cache is a small amount of very fast memory that stores {{c1::frequently used}} data and instructions.
+CPU cache design involves a trade-off between access speed (latency) and {{c1::size}} (which affects the hit rate).
+Multiple levels of cache (e.g., L1, L2, L3) are used to balance the trade-off between cache {{c1::speed and size}}.
+A multi-core CPU has multiple independent processing units, allowing for {{c1::parallel processing}} of tasks.
+While individual cores in a multi-core CPU may have their own private cache, they often share a larger {{c1::L3 cache}}.
+The system bus is a parallel transmission component that connects the CPU to {{c1::memory and I/O devices}}.
+The system bus consists of three separate buses: the address bus, the data bus, and the {{c1::control bus}}.
+The address bus is a {{c1::unidirectional}} bus that carries memory addresses from the CPU to other components.
+The CPU's Memory Address Register (MAR) loads addresses onto the {{c1::address bus}}.
+The {{c1::data bus}} is a bidirectional bus used to transfer data and instructions between the CPU, memory, and I/O devices.
+The {{c1::control bus}} is a bidirectional bus that carries command signals and timing information to synchronise components.
+A key signal carried by the control bus is the {{c1::system clock}} pulse, which ensures components are synchronised.
+In computer architecture, a 'word' is the natural unit of data that a CPU can process at one time, defined by its {{c1::word length}}.
+The word length of a system, typically 16, 32, or 64 bits, determines the size of the CPU's {{c1::registers}}.
+The width of the {{c1::data bus}} often matches the word length of the system.
+The width of the address bus determines the maximum amount of {{c1::memory}} a system can directly access.
+The maximum addressable memory can be calculated as 2 to the power of the {{c1::address bus width}}.
+Each individual address carried by the address bus typically refers to a single {{c1::byte}} in main memory.
+An I/O controller, also known as a device controller, manages the connection between the CPU and {{c1::I/O devices}}.
+An I/O controller connects to integral devices (like a hard drive) via {{c1::internal ports}}.
+An I/O controller connects to peripheral devices (like a keyboard) via {{c1::external ports}}.
+USB stands for {{c1::Universal Serial Bus}}.
+The USB standard supports a hierarchical connection structure, with the {{c1::computer}} acting as the root hub.
+A single computer can theoretically connect up to {{c1::127}} devices through the USB standard.
+A Video Graphics Array (VGA) port is an older standard used to transmit {{c1::analog video}} signals only.
+A High-Definition Multimedia Interface (HDMI) port is a modern standard that transmits both digital {{c1::video and audio}} signals.
+A statement that can be evaluated as either true or false is called a {{c1::logic proposition}}.
+A {{c1::logic expression}} is a construct of one or more logic propositions connected by Boolean operators.
+A {{c1::logic gate}} is a physical electronic device or circuit that implements a single Boolean function.
+In Boolean logic and truth tables, the value TRUE is represented by the digit {{c1::1}}.
+In Boolean logic and truth tables, the value FALSE is represented by the digit {{c1::0}}.
+A {{c1::truth table}} is a diagram used to show all possible outcomes of a logic expression for every combination of its inputs.
+For a logic expression with `n` variables, its truth table must have {{c1::2^n}} rows to list all possible input combinations.
+The AND operation (A AND B) results in TRUE only if {{c1::both A and B are TRUE}}.
+In Boolean algebra, the expression for A AND B can be written as {{c1::`AB`}}.
+For an AND gate, any input of `0` will result in an output of {{c1::`0`}}.
+The OR operation (A OR B) results in TRUE if {{c1::at least one input (A or B) is TRUE}}.
+In Boolean algebra, the expression for A OR B can be written as {{c1::`A+B`}}.
+For an OR gate, any input of `1` will result in an output of {{c1::`1`}}.
+The NOT operation (NOT A) {{c1::inverts}} the truth value of its single operand.
+In Boolean algebra, the expression for NOT A can be written as {{c1::`Ā`}}.
+For a NOT gate, an input of `0` results in an output of {{c1::`1`}}.
+The NAND operation is logically equivalent to an AND operation followed by a {{c1::NOT}} operation.
+In Boolean algebra, the expression for A NAND B can be written as {{c1::`overline(AB)`}}.
+The output of a NAND gate is `0` only when {{c1::both inputs are `1`}}.
+The NOR operation is logically equivalent to an OR operation followed by a {{c1::NOT}} operation.
+In Boolean algebra, the expression for A NOR B can be written as {{c1::`overline(A+B)`}}.
+The output of a NOR gate is `1` only when {{c1::both inputs are `0`}}.
+The XOR (Exclusive OR) operation results in TRUE only if the inputs are {{c1::different}}.
+In Boolean algebra, the symbol for the XOR operation is {{c1::`⊕`}}.
+The XOR expression `A ⊕ B` is equivalent to the Boolean expression {{c1::`ĀB + AḂ`}}.
+For an XOR gate, if both inputs are the same (e.g., `1` XOR `1`), the output is {{c1::`0`}}.
+For an XOR gate, if the inputs are different (e.g., `1` XOR `0`), the output is {{c1::`1`}}.
+The fundamental Boolean operators that can form any logic composition are AND, OR, and {{c1::NOT}}.
+A set of operators like {AND, OR, NOT} is called {{c1::functionally complete}} because any other logic function can be constructed from them.
+A {{c1::NAND}} gate is considered functionally complete because any logic circuit can be built using only this type of gate.
+A {{c1::NOR}} gate is also considered functionally complete because any logic circuit can be built using only this type of gate.
+For an AND gate, if input A is `1` and input B is `1`, the output is {{c1::`1`}}.
+For an OR gate, if input A is `0` and input B is `0`, the output is {{c1::`0`}}.
+For a NAND gate, if input A is `1` and input B is `0`, the output is {{c1::`1`}}.
+For a NOR gate, if input A is `1` and input B is `0`, the output is {{c1::`0`}}.
+A `{{c1::device driver}}` is a program that enables the operating system to communicate with and control a hardware device.
+On a magnetic hard disk, data is stored in concentric circles called `{{c1::tracks}}`.
+Each track on a magnetic disk is subdivided into smaller, fixed-size segments called `{{c1::sectors}}`.
+A `{{c1::cylinder}}` in a multi-platter hard drive is the set of all tracks located at the same radial distance from the center.
+A hard drive's `{{c1::actuator arm}}` moves the read-write heads across the platters to access different tracks.
+The `{{c1::read-write head}}` on a hard drive uses electromagnetism to magnetize areas for writing and detect magnetic fields for reading.
+File `{{c1::fragmentation}}` on a hard drive occurs when a single file is stored in non-contiguous sectors, slowing down access times.
+Optical discs, such as CDs and DVDs, store data on a `{{c1::single, continuous spiral track}}`.
+On a read-only optical disc, data is physically represented by microscopic indentations called `{{c1::pits}}` and flat surfaces called `{{c1::lands}}`.
+A laser reads data from an optical disc by detecting the difference in `{{c1::light reflection}}` between pits and lands.
+On a rewritable optical disc (CD-RW), a laser alters the state of a special alloy between `{{c1::crystalline and amorphous}}` to represent binary data.
+Blu-ray discs have a higher storage capacity than DVDs because they use a `{{c1::blue-violet}}` laser, which has a shorter wavelength.
+Solid-state media stores data electronically using `{{c1::NAND flash memory}}` cells, which contain floating-gate transistors.
+Unlike magnetic media, solid-state drives have no `{{c1::moving mechanical parts}}`, resulting in faster access times and greater durability.
+In flash memory, data is read and written in units called `{{c1::pages}}`, but must be erased in larger units called blocks.
+Before data can be written to a location in flash memory, the entire `{{c1::block}}` containing that location must first be erased.
+A significant drawback of flash memory is that each cell has a `{{c1::limited number}}` of write/erase cycles before it fails.
+SSD controllers use a technique called `{{c1::wear leveling}}` to distribute write operations evenly across memory cells and extend the drive's lifespan.
+An LCD screen creates images by controlling light from a `{{c1::backlight}}` as it passes through liquid crystals and polarizing filters.
+In a color LCD, each pixel is composed of three `{{c1::sub-pixels}}` with red, green, and blue filters.
+A laser printer creates an image by using a laser to draw an `{{c1::electrostatic}}` pattern onto a charged rotating drum.
+In a laser printer, `{{c1::toner}}` powder is attracted to the discharged areas of the drum and then fused to the paper using heat and pressure.
+An inkjet printer works by propelling tiny droplets of `{{c1::ink}}` from a moving printhead onto the paper.
+A `{{c1::plotter}}` is a specialized output device that draws high-quality vector graphics using a pen or other tool.
+3D printers build physical objects layer-by-layer from a digital model, a process known as `{{c1::additive manufacturing}}`.
+A keyboard detects key presses using a `{{c1::key matrix}}`, which is a grid of circuits beneath the keys.
+A `{{c1::resistive}}` touch screen detects touch by physical pressure causing two conductive layers to make contact.
+A `{{c1::capacitive}}` touch screen works by detecting a change in its electrical field caused by the conductivity of a user's finger.
+`{{c1::Multi-touch}}` functionality, which detects multiple contact points simultaneously, is a feature of projective capacitive touch screens.
+An infrared touch screen detects touch when an object interrupts a grid of `{{c1::infrared light beams}}` just above the screen's surface.
+A scanner uses a `{{c1::Charge-Coupled Device (CCD)}}` to convert light reflected from a document into an analog electrical signal.
+An `{{c1::Analog-to-Digital Converter (ADC)}}` is required to transform the analog signal from a microphone or scanner into digital data.
+A microphone converts sound waves into an analog electrical signal using a vibrating `{{c1::diaphragm}}`.
+A speaker converts an electrical signal back into sound waves by using an electromagnet to vibrate a `{{c1::cone or diaphragm}}`.
+A `{{c1::Digital-to-Analog Converter (DAC)}}` is required to transform digital audio data into an analog signal that can drive a speaker.
+A primary purpose of data compression is to reduce {{c1::file size}}.
+Data compression helps to reduce {{c1::download times}} over a network.
+Using compression allows for reduced {{c1::storage requirements}} on a device.
+Compression makes more efficient use of available network {{c1::bandwidth}}.
+In {{c1::lossy}} compression, some of the original data is permanently discarded.
+In {{c1::lossless}} compression, the original file can be perfectly restored after decompression.
+A compressed file must be {{c1::decompressed}} before its contents can be accessed.
+Lossy compression is suitable for media like images, audio, and video where some quality loss is {{c1::acceptable}}.
+Lossy compression is unsuitable for {{c1::text files}} or program code, as any data loss would cause corruption.
+Lossless compression is ideal for images with large areas of uniform color, such as {{c1::logos and cartoons}}.
+A {{c1::codec}} is a piece of software or hardware used to encode and decode a data stream.
+The {{c1::encoder}} component of a codec is responsible for compressing the data.
+The {{c1::decoder}} component of a codec is responsible for decompressing the data.
+{{c1::Intra-frame}} compression, also known as spatial compression, reduces redundancy within a single video frame.
+{{c1::Inter-frame}} compression, also known as temporal compression, reduces redundancy between consecutive video frames.
+Inter-frame compression works by storing a full {{c1::reference frame}} (or keyframe) periodically.
+Between keyframes, inter-frame compression stores {{c1::residual frames}}, which only contain the differences from the previous frame.
+A technique used in inter-frame compression is {{c1::motion compensation}}, which tracks the movement of pixel blocks between frames.
+{{c1::Run-length encoding (RLE)}} is a lossless compression technique that replaces repeated sequences of data with a single value and a count.
+Run-length encoding (RLE) is particularly effective for {{c1::bitmap}} images with large, simple-colored areas.
+{{c1::Huffman coding}} is a lossless compression method commonly used for text data.
+Huffman coding assigns {{c1::shorter}} binary codes to more frequently occurring characters.
+A fundamental rule in Huffman coding is that no character's code can be a {{c1::prefix}} of another's, ensuring unambiguous decoding.
+A lossy audio compression technique can work by storing amplitude {{c1::differences}} between samples instead of absolute values.
+Reducing the {{c1::color depth}} of an image is a technique used in lossy compression to reduce file size.
+The JPEG image format primarily uses {{c1::lossy}} compression.
+The GIF image format uses {{c1::lossless}} compression.
+The PNG image format uses {{c1::lossless}} compression.
+The TIFF image format supports both {{c1::lossless and lossy}} compression methods.
+The PNG format uses the {{c1::Deflate}} compression algorithm, which is a combination of LZ77 and Huffman coding.
+The GIF format uses {{c1::LZW (Lempel-Ziv-Welch)}} compression and a limited color palette.
+Vector graphics are well-suited for {{c1::lossless}} compression due to their mathematical definition and use of solid colors.
+For maximum efficiency, many compression standards combine both {{c1::lossy}} and {{c1::lossless}} techniques.
+A key benefit of inter-frame compression is that {{c1::residual frames}} are highly compressible because they contain very little data.
+The process of reducing redundant information within a single static image or video frame is called {{c1::spatial}} compression.
+A bitmap image is stored as a two-dimensional array of {{c1::pixels}}.
+A pixel represents the {{c1::smallest distinguishable feature}} of a digital image.
+Image resolution is typically defined by the total number of pixels in its {{c1::width and height}}.
+Pixel density, another measure of resolution, is often expressed in {{c1::ppi (pixels per inch)}}.
+The {{c1::color depth}} of an image specifies the number of bits used to represent the color of a single pixel.
+The number of possible colors in an image is calculated as 2 to the power of the {{c1::color depth}}.
+Increasing an image's resolution or color depth will {{c1::increase}} its file size.
+The file size of an uncompressed bitmap image in bits is calculated as {{c1::Width × Height × Color Depth}}.
+{{c1::Metadata}} is "data about data" and is stored with an image to ensure it can be displayed correctly.
+Essential image metadata for rendering includes resolution, file format, and {{c1::color depth}}.
+{{c1::Analog}} signals are continuous and can represent an infinite number of values within a given range.
+{{c1::Digital}} signals are discrete and can only represent a finite set of values.
+To digitize sound, an analog wave's amplitude is measured at regular intervals in a process called {{c1::sampling}}.
+The {{c1::sampling frequency}} is the number of samples taken per second, measured in Hertz (Hz).
+A higher sampling frequency results in a more accurate digital representation of the sound but also a {{c1::larger file size}}.
+The term 'sampling frequency' is also known as {{c1::sampling rate}}.
+The {{c1::sample size}} is the number of bits allocated to store the value of each audio sample.
+A larger sample size allows for a greater number of {{c1::amplitude}} levels to be represented, improving sound quality.
+The term 'sample size' is also known as {{c1::sample resolution}}.
+The {{c1::bit rate}} of an audio file is the total number of bits used to store one second of audio.
+Audio bit rate (in bps) is calculated by multiplying the {{c1::sampling frequency (Hz)}} by the sample size (bits).
+The file size of an uncompressed audio file is calculated by multiplying the bit rate by the {{c1::duration}} of the audio in seconds.
+A key advantage of digital signals is their lower susceptibility to {{c1::noise}} during transmission compared to analog signals.
+A key disadvantage of analog signals is their high susceptibility to {{c1::noise}} during transmission.
+A vector graphic is an image defined by a collection of geometric primitives called {{c1::drawing objects}}.
+The objects and their associated properties in a vector graphic are stored in a file known as a {{c1::drawing list}}.
+Properties of a drawing object in a vector graphic include its shape type, coordinates, and {{c1::fill color}}.
+Vector graphics are highly {{c1::scalable}}, meaning they can be resized without any loss of image quality.
+The scalability of vector graphics is possible because they are defined by {{c1::mathematical equations}} instead of a fixed grid of pixels.
+To be shown on a standard pixel-based monitor, a vector graphic must first be converted into a {{c1::bitmap}} image.
+The process of converting a vector graphic into a pixel-based bitmap image for display is called {{c1::rasterization}}.
+The file size of a vector graphic depends on the complexity and number of its {{c1::drawing objects}}.
+In contrast to vector graphics, resizing a {{c1::bitmap}} image often results in a loss of quality or pixelation.
+An Analog-to-Digital Converter (ADC) performs the process of {{c1::sampling}} to digitize a sound wave.
+A Digital-to-Analog Converter (DAC) is required to turn digital audio data back into an {{c1::analog signal}} for output through speakers.
+A character set is a collection of characters where each character is mapped to a unique {\{c1::binary number}}.
+ASCII is an acronym that stands for {\{c1::American Standard Code for Information Interchange}}.
+The original ASCII standard used {\{c1::7 bits}} per character, allowing for 128 unique values.
+Extended ASCII uses {\{c1::8 bits}} per character, allowing for 256 unique values.
+The additional 128 characters in Extended ASCII were often used for {\{c1::foreign language letters}} and special symbols.
+ASCII characters are stored and processed using a lookup table where each character corresponds to its {\{c1::binary code}}.
+In ASCII, characters are grouped logically; for example, the codes for letters and digits are {\{c1::sequential}}.
+ASCII contains printable characters known as {\{c1::graphic codes}}.
+ASCII also contains non-printable characters, such as Carriage Return (CR), known as {\{c1::control codes}}.
+Control codes in ASCII are used to manage {\{c1::data transmission and text formatting}}.
+The binary codes for uppercase and lowercase letters in ASCII differ by only a {\{c1::single bit}}.
+Because the codes are sequential, the integer value of a digit like '8' can be found by subtracting the code for {\{c1::'0'}}.
+ASCII codes for numbers are used for text representation and are not suitable for direct {\{c1::mathematical calculations}}.
+To represent a 7-bit ASCII character in an 8-bit system, a {\{c1::`0`}} is typically added as the most significant bit.
+Unicode is a modern character set that aims to include all symbols from {\{c1::every writing system in the world}}.
+Unicode is capable of representing over {\{c1::120,000}} different characters, far more than Extended ASCII.
+A basic Unicode "plane" can contain up to {\{c1::65,536}} characters, corresponding to a 16-bit address space.
+The most popular encoding for Unicode is {\{c1::UTF-8}}.
+UTF-8 uses a {\{c1::variable-length encoding}}, representing characters with one to four bytes.
+UTF-8 is backward-compatible with ASCII because its first 128 characters are {\{c1::identical}} to the 7-bit ASCII set.
+In UTF-8, any character represented by a single byte starts with a leading bit of {\{c1::`0`}}.
+This ensures that all 7-bit ASCII characters have the same {\{c1::binary representation}} in UTF-8.
+For multi-byte characters in UTF-8, the {\{c1::first byte}} indicates how many bytes are used for that character.
+In a multi-byte UTF-8 sequence, the number of leading `1`s in the first byte determines the {\{c1::total number of bytes}} in the character's code.
+In a multi-byte UTF-8 sequence, any byte after the first one is known as a {\{c1::continuation byte}}.
+A continuation byte in a UTF-8 sequence is always identified by the leading bit pattern {\{c1::`10`}}.
+A 2-byte UTF-8 character sequence starts with the bit pattern {\{c1::`110`}} in its first byte.
+A 3-byte UTF-8 character sequence starts with the bit pattern {\{c1::`1110`}} in its first byte.
+A 4-byte UTF-8 character sequence starts with the bit pattern {\{c1::`11110`}} in its first byte.
+The variable-length nature of UTF-8 makes it {\{c1::space-efficient}} for documents that primarily use ASCII characters.
+Computational thinking is a method of problem-solving that involves ordered, logical reasoning in a {{c1::step-by-step}} manner.
+In computational thinking, {{c1::abstraction}} is the process of filtering out unnecessary complexity and focusing on essential details.
+The main purpose of abstraction is to summarize the key information which is {{c1::important to the goal}}.
+Abstraction simplifies a problem by removing a layer of {{c1::unnecessary complexity}}.
+Abstract Data Types (ADTs) are an example of abstraction, as they group similar data and provide tools, hiding implementation details.
+{{c1::Decomposition}} is the computational thinking technique of breaking down large problems into smaller, more manageable sub-problems.
+In programming, decomposition is often implemented by creating separate {{c1::functions or procedures}} for each sub-problem.
+The primary benefit of decomposition is that smaller sub-problems are {{c1::easier to solve and manage}}.
+{{c1::Data modelling}} is the process of identifying what information is needed and how that information should be structured to solve a problem.
+Data modelling is closely linked with creating custom {{c1::Abstract Data Types (ADTs)}} when built-in types are not suitable.
+An example of data modelling is designing a custom ADT to implement a {{c1::queue-like datatype}} if the language does not provide one.
+{{c1::Pattern recognition}} is the process of finding similarities or recurring patterns within a problem to help find common solutions.
+The goal of pattern recognition is to find {{c1::common solutions}} that can be applied to solve parts of the problem more efficiently.
+Using standard, pre-existing {{c1::algorithms}} for common logical problems is a practical application of pattern recognition.
+Applying pattern recognition improves the {{c1::efficiency}} of both the work and the resulting code.
+{{c1::Algorithm design}} is the process of creating a precise, unambiguous, step-by-step set of instructions to solve a specific problem.
+A primitive data type is a basic, built-in data type provided by a programming language.
+Primitive data types are also known as {{c1::atomic}} data types because they represent a single value.
+The {{c1::Integer}} data type is used to store positive or negative whole numbers.
+The {{c1::Real}} data type is used to store numbers that have a fractional or decimal part.
+The {{c1::Char}} data type is used to store a single character, such as a letter or symbol.
+The {{c1::Boolean}} data type can only hold one of two logical values: `True` or `False`.
+A {{c1::structured}} data type is a composite type made up of a collection of other data types, including primitives.
+A `String` is considered a structured data type because it is composed of a sequence of {{c1::`Char`}} values.
+A {{c1::record}} is a structured data type that groups a collection of logically related data items of potentially different types.
+The individual data items within a record are known as {{c1::fields}} or members.
+A key advantage of a record is that its fields can hold data of {{c1::different}} data types.
+In contrast to a record, all elements in an {{c1::array}} must be of the same data type.
+Records are an example of a {{c1::user-defined}} data type, as they are defined by the programmer for a specific purpose.
+A record is used to represent a single {{c1::entity}} by storing its various attributes together.
+In Cambridge pseudocode, a record type definition starts with the keyword {{c1::`TYPE`}}.
+A record type definition in pseudocode is terminated by the keyword {{c1::`ENDTYPE`}}.
+Inside a `TYPE...ENDTYPE` block, fields are defined using the {{c1::`DECLARE`}} keyword followed by the field name and its data type.
+The syntax for declaring a field in a pseudocode record is `DECLARE {{c1::FieldName : DataType}}`.
+A variable that holds a record is created using a declaration like `DECLARE MyBook : {{c1::BookType}}`.
+A variable declared using a record type is called an {{c1::instance}} of that record type.
+To access a specific field within a record variable, {{c1::dot notation}} is used, for example `MyBook.Title`.
+The value of a field in a record is set using the pseudocode assignment operator, which is {{c1::`←`}}.
+A structured data type is also referred to as a {{c1::composite}} data type.
+A `Date` is a common example of a structured data type, often composed of three {{c1::Integer}} values (day, month, year).
+In a `BookType` record, a field for the price would typically be of the {{c1::`REAL`}} data type.
+In a `BookType` record, a field for the publication year would typically be of the {{c1::`INTEGER`}} data type.
+In a `BookType` record, a field for the title would typically be of the {{c1::`STRING`}} data type.
+The Central Processing Unit (CPU), also known as the processor, is responsible for the {{c1::manipulation of data}} in a computer system.
+The {{c1::Arithmetic Logic Unit (ALU)}} is the component of the CPU that performs all calculations and logical operations.
+The {{c1::Control Unit (CU)}} is the component of the CPU that coordinates all its activities by sending control signals.
+{{c1::Registers}} are small, extremely fast memory locations located directly inside the CPU.
+The {{c1::Von Neumann architecture}} is a computer design model where both program instructions and data are stored in the same main memory.
+The principle of storing both instructions and data in the same memory location is known as the {{c1::stored program concept}}.
+A key feature of the Von Neumann architecture is that instructions are fetched from memory and executed {{c1::sequentially}}.
+The {{c1::von Neumann bottleneck}} describes the performance limitation caused by the single, shared bus for instructions and data, which is slower than the CPU.
+A computer uses a {{c1::system clock}} to generate regular electronic pulses that synchronize the operation of its circuits.
+The rate at which a CPU can complete the fetch-execute cycle is determined by its {{c1::clock speed}}, measured in Hertz.
+The {{c1::fetch}} stage of the instruction cycle involves the CPU retrieving the next instruction from main memory.
+The {{c1::decode}} stage of the instruction cycle involves breaking down the fetched instruction into its opcode and operands.
+The {{c1::execute}} stage of the instruction cycle involves the Control Unit activating the necessary circuits to carry out the instruction.
+The {{c1::Program Counter (PC)}} is a special-purpose register that holds the memory address of the next instruction to be fetched.
+After an instruction is fetched, the value in the Program Counter (PC) is typically {{c1::incremented}} to point to the next instruction.
+The {{c1::Memory Address Register (MAR)}} holds the memory address of the location that the CPU needs to access for a read or write operation.
+The {{c1::Memory Data Register (MDR)}} temporarily holds the data that is being transferred between the CPU and main memory.
+During a memory read operation, data from the address specified in the MAR is copied into the {{c1::MDR}}.
+During a memory write operation, data from the MDR is copied to the memory location specified by the {{c1::MAR}}.
+The MAR and MDR act as {{c1::buffer registers}} to compensate for the speed difference between the fast CPU and slower main memory.
+The {{c1::Current Instruction Register (CIR)}} is a special-purpose register that holds the current instruction while it is being decoded and executed.
+The {{c1::Accumulator (ACC)}} is a general-purpose register used to hold the result of the most recent operation performed by the ALU.
+The {{c1::Index Register (IX)}} holds a value used to modify an address, which is essential for the indexed addressing mode.
+The {{c1::Status Register (SR)}} is a special-purpose register that contains several individual bits called flags.
+Each bit within the Status Register is a boolean {{c1::flag}} that indicates the status of the processor or the outcome of an ALU operation.
+An {{c1::overflow flag}} in the Status Register is set when the result of an arithmetic operation is too large to be stored in the available number of bits.
+A {{c1::negative flag}} in the Status Register is set if the result of an arithmetic operation is a negative number.
+A {{c1::zero flag}} in the Status Register is set if the result of an operation is zero.
+The Memory Data Register (MDR) is also known by the alternative name {{c1::Memory Buffer Register (MBR)}}.
+Clock speed refers to the {{c1::frequency}} of the clock's pulses, which dictates how many instructions per second the CPU can process.
+The {{c1::internal clock}} controls the timing of all cycles and operations taking place inside the CPU.
+The {{c1::system clock}}, located on the motherboard, controls and synchronizes all activities taking place outside the processor.
+General-purpose registers are those that can be used directly by {{c1::programmers}} for various data manipulation tasks.
+Network traffic is broken down into smaller units called {{c1::packets}} for more convenient transmission.
+A Network Interface Controller (NIC) is a hardware component located in each {{c1::node}} or end-system of a network.
+A NIC provides a physical connection point, such as an {{c1::Ethernet port}} for a wired network or an antenna for a wireless one.
+Every NIC has a unique, hardcoded identifier called a {{c1::Media Access Control (MAC) address}}.
+A MAC address is a {{c1::unique worldwide}} identifier for a specific network device.
+A MAC address is {{c1::hardcoded}} into the device's hardware during manufacturing.
+A MAC address is a {{c1::six-byte}} long identifier, commonly written in hexadecimal.
+The first three bytes of a MAC address identify the {{c1::manufacturer}} of the device.
+The final three bytes of a MAC address serve as a {{c1::unique serial number}} assigned by the manufacturer.
+A network switch is a hardware device that connects multiple devices within a single {{c1::Local Area Network (LAN)}}.
+A switch forwards packets to a specific node within a LAN by using the destination {{c1::MAC address}}.
+A standard switch is designed for wired connections and does not handle {{c1::WLAN}} (wireless) traffic.
+A router is a network device that forwards data packets {{c1::between different networks}}, such as from a LAN to a WAN.
+A router uses {{c1::IP addresses}} to identify nodes and forward packets to the correct network.
+IP addresses used on a local network are only required to be unique within {{c1::that local network}}.
+A Wireless Access Point (WAP) is a device that allows wireless-capable devices to connect to a {{c1::wired network}}.
+A WAP enables wireless connectivity using the {{c1::Wi-Fi}} communication standard.
+A WAP can be a standalone device connected to a router or it may be {{c1::integrated into the router}} itself.
+To connect to a WAP, a device must be equipped with a {{c1::Wireless Network Interface Card (WNIC)}}.
+While a router connects different networks, a switch connects nodes within the {{c1::same local network (LAN)}}.
+In a URL like `http://example.com/path`, `http` specifies the {{c1::protocol}}.
+In a URL like `http://example.com/path`, `example.com` is the {{c1::domain name}}.
+The first step in accessing a website is to resolve its domain name into an {{c1::IP address}}.
+The Domain Name System (DNS) is a hierarchical system for translating human-readable {{c1::domain names}} into numerical IP addresses.
+The process of finding an IP address for a given domain name using DNS is called {{c1::name resolution}}.
+When a domain is not in a local cache, a client's system queries a {{c1::DNS Recursive Resolver}}.
+A DNS Recursive Resolver first asks a {{c1::Root Name Server}} to begin the name resolution process.
+A Root Name Server directs the resolver to the appropriate {{c1::Top-Level-Domain (TLD)}} server based on the domain's suffix (e.g., `.com`, `.org`).
+A reliable connection between a client and a server is established using the TCP {{c1::three-way handshake}}.
+The first step of the TCP three-way handshake is for the client to send a {{c1::`SYN`}} (synchronize) packet.
+The second step of the TCP three-way handshake is for the server to reply with a {{c1::`SYN-ACK`}} (synchronize-acknowledge) packet.
+The final step of the TCP three-way handshake is for the client to send an {{c1::`ACK`}} (acknowledge) packet, establishing the connection.
+An IPv4 address is {{c1::32 bits}} long, conventionally written as four bytes in dotted decimal notation.
+The human-readable format for an IPv4 address, such as `192.168.1.1`, is known as {{c1::dotted decimal}} notation.
+{{c1::Classless Inter-Domain Routing (CIDR)}} was introduced to make IPv4 address allocation more flexible and combat address exhaustion.
+In CIDR notation, such as `/24`, the number specifies the length of the {{c1::network prefix}} in bits.
+In the CIDR address `192.168.10.5/24`, the first {{c1::24 bits}} represent the network address.
+{{c1::Subnetting}} is the process of dividing a single large IP network into multiple smaller subnetworks.
+Subnetting is achieved by borrowing bits from the {{c1::hostID}} portion of an IP address to create a subnetID.
+A {{c1::subnet mask}} is a 32-bit number used to distinguish the network portion of an IP address from the host portion.
+To derive the network address, a device performs a bitwise {{c1::AND}} operation between its IP address and the subnet mask.
+An IP address where the host portion is all ones is reserved as the {{c1::broadcast address}} for that subnet.
+{{c1::Network Address Translation (NAT)}} allows multiple devices on a private network to share a single public IP address.
+A router using NAT translates {{c1::private IP addresses}} from an internal network into a single public IP address.
+IP address ranges like `10.0.0.0/8` and `192.168.0.0/16` are reserved for use in {{c1::private networks (intranets)}}.
+A {{c1::dynamic IP address}} is temporarily assigned to a user by an ISP each time they connect to the internet.
+A {{c1::static IP address}} is a fixed IP address that does not change, typically used for servers and other permanent services.
+ISPs use dynamic addressing primarily to conserve their limited pool of {{c1::IPv4 addresses}}.
+{{c1::IPv6}} is the current version of the Internet Protocol, designed to replace IPv4 and its limited address space.
+An IPv6 address is {{c1::128 bits}} long, providing a vastly larger number of unique addresses than IPv4.
+IPv6 addresses are written as eight groups of four {{c1::hexadecimal}} digits, separated by colons.
+In an IPv6 address, leading zeros within a 16-bit block can be {{c1::omitted}} (e.g., `0AF1` becomes `AF1`).
+In an IPv6 address, a single contiguous block of zero-value groups can be compressed to a {{c1::double colon (::)}}.
+The double colon (`::`) abbreviation can only be used {{c1::once}} within a single IPv6 address to ensure it can be uniquely expanded.
+IPv4 addresses can be represented in IPv6 format, often prefixed by `::` (e.g., `::192.31.20.46`).
+The Software Development Life Cycle (SDLC) is a framework defining the stages for creating high-quality software, which include Analysis, Design, Coding, Testing, and {{c1::Maintenance}}.
+The `Analysis` stage of the SDLC involves investigating the current system, defining the problem, and clearly stating the new system's requirements.
+The `Design` stage of the SDLC involves planning the system's data structures, algorithms, user interface, and overall architecture.
+An `identifier table` is a tool used during the Design stage to systematically document all variables and their properties, such as name, data type, and scope.
+The `Coding` stage of the SDLC involves translating the design specifications from the previous stage into executable source code.
+The `Testing` stage of the SDLC is dedicated to finding and fixing errors to ensure the software functions correctly and meets all requirements.
+The `Maintenance` stage of the SDLC involves making modifications to the software after its initial release to correct faults or improve performance.
+The `top-down` design approach starts with a broad overview of the entire system and progressively breaks it down into smaller, more detailed sub-problems.
+The `bottom-up` design approach starts by creating and testing small, individual modules and then integrating them to form the complete system.
+The `Waterfall` model is a sequential SDLC model where progress flows steadily downwards through the phases, with each phase being completed before the next begins.
+In the Waterfall model, the output from one stage serves as the {{c1::input}} for the next stage.
+The Waterfall model is best suited for small projects where requirements are {{c1::well-understood and unlikely to change}}.
+A major drawback of the Waterfall model is that a working version of the software is not available until the {{c1::end of the development cycle}}.
+The Waterfall model is considered {{c1::inflexible}} because it does not easily accommodate changes to requirements once a stage is complete.
+Feedback loops in the Waterfall model allow developers to return to a {{c1::previous stage}} to make corrections if necessary.
+The `Iterative` model is an SDLC approach that develops a system through repeated cycles, or iterations, progressively adding functionality.
+The Iterative model begins by implementing a {{c1::small subset of requirements}} and then enhances the software in subsequent cycles.
+A key benefit of the Iterative model is the early production of a working version, which helps in {{c1::early risk identification}}.
+The Iterative model allows for a {{c1::faster feedback loop}} from users because they can interact with a working part of the system early on.
+The Iterative model is particularly suitable for {{c1::large and complex projects}} that can be subdivided into smaller components.
+A potential weakness of the Iterative model is that design issues can arise if {{c1::all requirements}} are not known from the start.
+The Iterative model supports {{c1::parallel development}}, where different teams can work on different system components at the same time.
+The `Rapid Application Development (RAD)` model is an SDLC model that emphasizes minimal upfront planning and fast prototyping.
+In the RAD model, functional modules are developed in parallel as {{c1::prototypes}}, which are then integrated to form the complete product.
+The RAD model is highly {{c1::adaptable}} to changing requirements, making it ideal for projects where specifications are expected to evolve.
+A key advantage of the RAD model is the {{c1::reusability of modules}}, which can significantly reduce overall development time.
+The RAD model is only suitable for projects that can be {{c1::modularised}}, meaning they can be broken down into independent components.
+A critical requirement for the success of a RAD project is continuous {{c1::user involvement}} to provide feedback on prototypes.
+The RAD model typically requires a team of {{c1::highly skilled developers}} who can efficiently build and iterate on prototypes.
+In the RAD model, progress is easily {{c1::measurable}} because it is based on the delivery of working prototypes.
+Unlike the linear Waterfall model, the RAD model iterates over the development stages {{c1::fast and many times}}.
+The Program Development Life Cycle (PDLC) consists of various {{c1::models}} that structure the five fundamental stages of software development.
+The main goal of the Analysis stage is to produce a clear and precise {{c1::problem definition}}.
+Debugging is performed during the {{c1::Coding}} stage to ensure the program compiles and runs without crashing before formal testing begins.
+The RAD model is primarily suitable for systems that are designed to be {{c1::scalable}}.
+An array is a data structure that stores an ordered collection of elements under a single {{c1::identifier}}.
+A key characteristic of an array is that all its elements must be of the {{c1::same data type}}.
+The elements in an array are stored in a specific sequence and can be accessed using an {{c1::index}}.
+Unlike an array, a general-purpose list can often store elements of {{c1::mixed data types}}.
+Compared to lists that hold mixed data types, arrays are typically more {{c1::memory-efficient}}.
+In the pseudocode `DECLARE MyArray[1:10] OF INTEGER`, `MyArray` is the {{c1::identifier}} for the array.
+In an array declaration `[1:10]`, the first value (`1`) is called the {{c1::lower bound}}.
+In an array declaration `[1:10]`, the second value (`10`) is called the {{c1::upper bound}}.
+The declaration `OF <DataType>` is required to specify the {{c1::data type}} for all elements in an array.
+An array declaration with inclusive bounds `[0:10]` will create space for {{c1::11}} elements.
+To access a specific element in an array, you use its identifier and an {{c1::index}} in square brackets.
+The statement `Numbers[3] <- 99` assigns the value 99 to the element at {{c1::index 3}} of the array.
+A two-dimensional (2D) array stores elements in a {{c1::grid-like structure}} of rows and columns.
+In a 2D array declaration `DECLARE Grid[1:3, 1:5]`, the first dimension `[1:3]` typically represents the {{c1::rows}}.
+In a 2D array declaration `DECLARE Grid[1:3, 1:5]`, the second dimension `[1:5]` typically represents the {{c1::columns}}.
+Accessing an element in a 2D array requires providing {{c1::two indices}}, one for the row and one for the column.
+The statement `Grid[2, 4] <- TRUE` assigns a value to the element in the second row and {{c1::fourth column}}.
+The {{c1::linear search}} algorithm finds an item by checking each element of an array sequentially from the beginning.
+A linear search can be used on arrays that are both {{c1::sorted and unsorted}}.
+A linear search concludes either when a {{c1::match is found}} or when the entire array has been checked.
+The worst-case scenario for a linear search is when the target element is at the {{c1::end of the array}} or not present at all.
+The {{c1::bubble sort}} algorithm works by repeatedly stepping through the list, comparing adjacent elements and swapping them if they are in the wrong order.
+A single iteration through the array to compare and swap adjacent elements in bubble sort is called a {{c1::pass}}.
+In an ascending bubble sort, two adjacent elements are swapped if the {{c1::left element is greater than}} the right element.
+After the first pass of a bubble sort, the {{c1::largest}} element is guaranteed to be in its correct final position.
+After each completed pass of a bubble sort, the next largest unsorted element "bubbles" to its correct position, effectively {{c1::reducing the size}} of the array that needs to be checked.
+The bubble sort algorithm is known to be complete when a full pass over the active part of the array results in {{c1::no swaps}}.
+The Internet is a global collection of interconnected computer networks that use the {{c1::TCP/IP protocol suite}}.
+The World Wide Web (WWW) is a collection of linked documents and resources, accessed via the Internet using the {{c1::HTTP protocol}}.
+The Internet is the {{c1::global hardware and network infrastructure}}, while the WWW is the information service running on it.
+A resource on the World Wide Web is identified by its {{c1::URL (Uniform Resource Locator)}}.
+An {{c1::ISP (Internet Service Provider)}} is a company that provides users with access to the Internet.
+The Internet's infrastructure has a hierarchical structure of {{c1::Tier 1, regional, and access}} ISPs.
+{{c1::Tier 1 ISPs}} form the high-speed backbone of the Internet, connecting large regions and other Tier 1 networks.
+{{c1::Access ISPs}} provide the final network connection from the Internet backbone to individual customers.
+A {{c1::router}} is a network device that forwards data packets between computer networks based on their destination IP address.
+Routers determine the most efficient {{c1::path}} for data packets to travel, helping to prevent network congestion.
+A {{c1::public IP address}} is a globally unique address that identifies a device on the public Internet.
+A {{c1::local IP address}} is a non-unique address used to identify a device within a private network, such as a LAN.
+In {{c1::packet switching}}, a message is divided into smaller units called packets for transmission over a network.
+Packets in a packet-switched network can travel along different {{c1::routes}} and are reassembled at the destination.
+A packet header contains metadata such as the source and destination IP addresses and the {{c1::packet number}}.
+A packet trailer often contains a {{c1::checksum}}, which is a value used to detect data transmission errors.
+{{c1::Cloud computing}} provides on-demand computing services, including servers, storage, and software, over the Internet.
+A {{c1::private cloud}} is a cloud computing environment dedicated to a single organization.
+A {{c1::public cloud}} is a cloud computing environment where a third-party provider makes resources available to the general public over the Internet.
+Public cloud services are often categorized as Infrastructure, Platform, and {{c1::Software}} as a Service.
+A key benefit of cloud computing is {{c1::flexible resource allocation}}, allowing a company to easily scale its IT infrastructure.
+A significant drawback of using a public cloud is the heavy {{c1::reliance on a third-party provider}} for data security and service availability.
+{{c1::Streaming}} is a technology that allows a user to play media content continuously while it is being delivered from a server.
+Data sent for streaming is {{c1::compressed}} to reduce its size and the required network bandwidth.
+A {{c1::buffer}} is a region of memory used to temporarily store streamed data to ensure smooth playback despite network fluctuations.
+The quality of a media stream, such as video resolution, is primarily determined by its {{c1::bit rate}}.
+Streaming can be categorized as live/real-time, like a sports broadcast, or {{c1::on-demand}}, like watching a pre-recorded video.
+A media player manages the data flow into a buffer by monitoring its {{c1::low and high watermarks}}.
+The {{c1::PSTN (Public Switched Telephone Network)}} is the global network of traditional circuit-switched telephone lines.
+A {{c1::modem (modulator-demodulator)}} converts digital signals from a computer into analog signals for transmission over the PSTN.
+A {{c1::leased line}} is a dedicated communication channel provided by a telephone company that offers guaranteed bandwidth between two points.
+An Abstract Data Type (ADT) is a logical description of a data structure and the collection of {{c1::operations}} that can be performed on it.
+An ADT defines *what* can be done with the data, but not {{c1::how}} it is implemented.
+A stack is an ADT that operates on a {{c1::Last-In, First-Out (LIFO)}} principle.
+A queue is an ADT that operates on a {{c1::First-In, First-Out (FIFO)}} principle.
+Adding an item to a stack is known as a {{c1::push}} operation.
+Removing an item from a stack is known as a {{c1::pop}} operation.
+In a stack, the {{c1::TopOfStackPointer}} always points to the last element added.
+In an array-based stack, an empty state is often indicated by the `TopOfStackPointer` having a value of {{c1::-1}}.
+Adding an item to a queue is known as an {{c1::enqueue}} operation.
+Removing an item from a queue is known as a {{c1::dequeue}} operation.
+In a queue, the {{c1::FrontOfQueuePointer}} points to the element at the start of the queue.
+In a queue, the {{c1::EndOfQueuePointer}} points to the position for the next element to be added.
+A {{c1::circular queue}} is an implementation that allows the end pointer to wrap around to the start of the array, avoiding the need to shift elements.
+A linked list is a dynamic data structure where elements are stored in individual {{c1::nodes}}.
+Each node in a linked list contains a data field and a {{c1::pointer}} to the next node.
+In a linked list, nodes can be stored in {{c1::non-contiguous}} memory locations.
+The first node in a linked list is located using a {{c1::start pointer}}.
+The end of a linked list is indicated by a {{c1::null pointer}} in the last node.
+A key advantage of linked lists is the efficient {{c1::insertion and deletion}} of elements compared to static arrays.
+A disadvantage of linked lists is the need for {{c1::sequential traversal}} to access an element, as there is no direct indexing.
+Linked lists require more storage than arrays because each node must store a {{c1::pointer}} in addition to data.
+To delete a node from a linked list, the pointer of the {{c1::preceding node}} is modified to bypass the deleted node.
+To insert a new node, the pointer of the preceding node is changed to point to the {{c1::new node}}.
+The pointer of a newly inserted node is set to point to the {{c1::next node}} in the original sequence.
+A linked list can be implemented using two parallel arrays, one for data and one for {{c1::pointers (indices)}}.
+In an array implementation of a linked list, a pointer's value is the {{c1::index}} of the next node in the data array.
+A value of {{c1::-1}} is commonly used in an array-based linked list to represent a null pointer.
+A {{c1::free list}} is a structure used to manage available space in an array-based implementation of a linked list.
+The free list maintains a linked list of all {{c1::unused or deleted}} nodes that can be repurposed.
+A {{c1::FreeListPointer}} points to the start of the chain of available nodes in a free list.
+When an element is deleted from the main linked list, its node is added to the {{c1::free list}}.
+When a new element is added to the linked list, a node is taken from the {{c1::free list}}.
+When a linked list implemented with an array is first initialized, all nodes are contained within the {{c1::free list}}.
+TCP/IP is a collection of communication protocols also known as the {{c1::Internet Protocol Suite}}.
+Ethernet is a family of standardized networking protocols defined by the {{c1::IEEE 802.3}} standard.
+Ethernet protocols describe how nodes on the same network segment format and transmit data as {{c1::frames}}.
+Ethernet is primarily used to establish connections within a {{c1::Local Area Network (LAN)}}.
+In the OSI model, Ethernet operates at the two lowest layers: the Physical layer and the {{c1::Data Link layer}}.
+The physical layer of Ethernet consists of the {{c1::cabling and network devices}} like hubs and switches.
+The data link layer in Ethernet is subdivided into Logical Link Control (LLC) and {{c1::Media Access Control (MAC)}}.
+Ethernet cables typically consist of four twisted pairs of copper wires to reduce {{c1::electromagnetic interference}}.
+The different twist rates in Ethernet cable pairs help to further reduce {{c1::crosstalk}} between the wires.
+WiFi is a technology for wireless local area networking that uses {{c1::radio waves}} for transmission.
+In WiFi, a {{c1::channel}} represents a specific, small range of radio frequencies used for communication.
+To avoid interference, WiFi communications should be spaced out across non-overlapping {{c1::channels}}.
+Data transmitted over a WiFi network is typically encrypted using the {{c1::WPA2 (Wi-Fi Protected Access 2)}} security protocol.
+A major advantage of WiFi is its versatility, allowing devices to {{c1::move freely}} within the network range.
+Compared to wired networks, WiFi networks are often cheaper to set up due to the absence of {{c1::physical cables}}.
+A disadvantage of WiFi is its susceptibility to {{c1::interference}} from other electronic devices and networks.
+WiFi signals suffer from high {{c1::attenuation}}, meaning their strength decreases rapidly over distance.
+The high attenuation of WiFi signals makes them generally less {{c1::reliable}} than wired connections.
+Compared to a direct Ethernet connection, WiFi typically offers {{c1::slower}} data transfer speeds.
+CSMA/CD stands for Carrier Sense Multiple Access with {{c1::Collision Detection}}.
+CSMA/CD is a protocol used in early Ethernet networks to manage transmissions on a {{c1::shared medium}} and prevent data corruption.
+A data {{c1::collision}} occurs when two or more nodes on a shared medium transmit data simultaneously.
+The first step in CSMA/CD is for a node to "sense the carrier" by checking for {{c1::voltage on the cable}}.
+In CSMA/CD, if the line is busy, the node waits a {{c1::random amount of time}} before checking again.
+If a collision is detected during transmission, the node immediately stops sending the data frame and transmits a {{c1::jamming signal}}.
+The purpose of the jamming signal in CSMA/CD is to ensure all other nodes are aware that a {{c1::collision has occurred}}.
+After a collision and sending a jamming signal, a node waits a random backoff period before attempting to {{c1::retransmit}} the data.
+CSMA/CD was essential in networks using a {{c1::hub}}, which broadcasts all incoming data to all connected devices.
+Modern networks using {{c1::switches}} make CSMA/CD redundant.
+A switch creates a direct, point-to-point connection between devices, unlike a {{c1::hub}}.
+Because switches provide individual {{c1::full-duplex}} links to each device, data collisions are effectively impossible.
+The bottom layer of the OSI model is the {{c1::Physical}} layer.
+The second layer of the OSI model, which handles MAC addressing, is the {{c1::Data Link}} layer.
+The third layer of the OSI model, responsible for IP addressing and routing, is the {{c1::Network}} layer.
+The fourth layer of the OSI model, which includes TCP, is the {{c1::Transport}} layer.
+A network is a connection between two or more computing devices, known as {{c1::nodes}}, for the purpose of sharing resources.
+A PAN (Personal Area Network) is a short-range network for an individual, typically up to {{c1::10 metres}}, often using Bluetooth.
+A LAN (Local Area Network) connects devices within a limited geographical area, such as a single {{c1::building or campus}}.
+A WAN (Wide Area Network) connects devices over a large geographical area, such as a country, with the {{c1::Internet}} being the largest example.
+In {{c1::unicast}} communication, a message is sent from one source to exactly one destination node.
+In {{c1::multicast}} communication, a message is sent from one source to a selected group of destination nodes.
+In {{c1::broadcast}} communication, a message is sent from one source to all other nodes on the network.
+In a {{c1::simplex}} connection, data can travel in only one direction.
+In a {{c1::half-duplex}} connection, data can travel in both directions, but not at the same time.
+In a {{c1::full-duplex}} connection, data can travel in both directions simultaneously.
+The client-server model features a central {{c1::server}} that provides resources and services to client devices.
+A major advantage of the client-server model is {{c1::centralized}} control over data, security, and backups.
+A key disadvantage of the client-server model is its dependence on the server's availability, creating a single point of {{c1::failure}}.
+In a peer-to-peer (P2P) network, all devices have equal responsibility and can act as both a client and a {{c1::server}}.
+A major drawback of P2P networks is the lack of centralized security and administration, which can allow {{c1::malware}} to spread easily.
+{{c1::Latency}} is the time delay for data to travel from its source to its destination in a network.
+{{c1::Bandwidth}} measures the maximum rate of data transfer across a network, typically in bits per second (bps).
+The {{c1::error rate}} of a network is the frequency at which data packets are corrupted during transmission.
+{{c1::Attenuation}} refers to the weakening of a signal's strength as it travels over a distance through a medium.
+{{c1::Twisted pair}} cable is an inexpensive, low-bandwidth medium commonly used for LANs and is highly susceptible to interference.
+{{c1::Coaxial}} cable offers higher bandwidth than twisted pair but often requires amplifiers to boost the signal over long distances.
+{{c1::Fibre-optic}} cable provides the highest bandwidth and data rates and is immune to electromagnetic interference.
+In a wireless network, the available bandwidth is {{c1::shared}} among all connected devices, which can lead to congestion.
+Global communication networks often rely on undersea {{c1::fibre-optic}} cables or satellites for long-distance data transmission.
+A Geostationary Earth Orbit (GEO) satellite remains in a fixed position above the equator at an altitude of approximately {{c1::35,786 km}}.
+A data communication system requires five components: a sender, a receiver, a message, a transmission medium, and a {{c1::protocol}}.
+In a bus topology, all nodes are connected to a single shared communication cable, which is terminated at both ends to prevent signal {{c1::reflection}}.
+A device called a {{c1::repeater}} can be used to connect two bus cables, amplifying the signal to cover a larger distance.
+In a star topology, all nodes are connected to a central device, such as a {{c1::switch}} or a router.
+The primary weakness of a star topology is that the entire network fails if the {{c1::central device}} fails.
+An advantage of the star topology is that a failure in one node or its cable does {{c1::not affect}} the rest of the network.
+A mesh topology connects every node to every other node, providing high {{c1::reliability}} through multiple data paths.
+The main disadvantage of a full mesh topology is the high cost and complexity due to the large number of {{c1::cables and ports}} required.
+A device called a {{c1::router}} is typically used to connect a Local Area Network (LAN) to a Wide Area Network (WAN).
+A monitoring system creates a record of a system's condition over a {{c1::period of time}}.
+Monitoring systems use {{c1::sensors}} to gather data about a system's condition.
+A key characteristic of a sensor is that it only outputs information and lacks the {{c1::intelligence}} to take action.
+A control system consists of a monitoring system and one or more {{c1::actuators}} connected to controlling devices.
+The primary difference from a monitoring system is that a control system can {{c1::take action}} based on the data it receives.
+An {{c1::actuator}} is a type of motor that acts upon an electrical signal to produce a physical effect on the environment.
+Common examples of actuators in control systems include electric motors, valves, and {{c1::relays}}.
+The {{c1::controller}} is the component in a control system that decides what action to take, often a computer or microprocessor.
+A controller sends command signals to {{c1::controlling devices}} or directly to actuators.
+A {{c1::controlling device}}, such as a motor driver, translates a low-power signal from a controller into a high-power signal for an actuator.
+A {{c1::sensor}} is a device that measures a physical quantity from the environment, either continuously or at intervals.
+The raw output of many sensors is an {{c1::analogue signal}} which is proportional to the physical quantity being measured.
+Many modern sensors include a built-in {{c1::analogue-to-digital converter}} (ADC) to provide a digital output.
+A closed-loop control system uses {{c1::feedback}} from the system's output to make continuous adjustments.
+In a closed-loop system, the {{c1::sensor}} is responsible for measuring the actual output of the process.
+The measurement from the sensor is sent back to the {{c1::controller}} to complete the feedback loop.
+The controller compares the current state, provided by the sensor, with the {{c1::desired value}} or setpoint.
+The difference between the desired value and the actual measured value is known as the {{c1::error signal}}.
+The main goal of a closed-loop controller is to process the error signal and adjust its output to {{c1::minimize the error}}.
+Based on the error, the controller sends an instruction to an {{c1::actuator}} to influence the process.
+The {{c1::actuator}} performs the physical action that directly changes the state of the process being controlled.
+The continuous cycle of measuring, comparing, and correcting in a control system is known as a {{c1::feedback loop}}.
+A control system that operates without feedback is known as an {{c1::open-loop}} system.
+The "brains" of the control system, which contains the decision-making logic, is the {{c1::controller}}.
+A {{c1::microprocessor}} is commonly used as the controller in an embedded control system.
+A {{c1::motor driver}} is a specific example of a controlling device.
+A {{c1::valve}} that regulates the flow of a liquid or gas is a type of actuator.
