@@ -1,0 +1,35 @@
+tera (T) | 10^12
+10^12 | tera (T)
+
+giga (G) | 10^9
+10^9 | giga (G)
+
+mega (M) | 10^6
+10^6 | mega (M)
+
+kilo (k) | 10^3
+10^3 | kilo (k)
+
+hecto (h) | 10^2
+10^2 | hecto (h)
+
+deka (da) | 10^1
+10^1 | deka (da)
+
+deci (d) | 10^-1
+10^-1 | deci (d)
+
+centi (c) | 10^-2
+10^-2 | centi (c)
+
+milli (m) | 10^-3
+10^-3 | milli (m)
+
+micro (µ) | 10^-6
+10^-6 | micro (µ)
+
+nano (n) | 10^-9
+10^-9 | nano (n)
+
+pico (p) | 10^-12
+10^-12 | pico (p)
